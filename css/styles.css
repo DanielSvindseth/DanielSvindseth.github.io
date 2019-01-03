@@ -65,6 +65,15 @@ p
   text-shadow: 1px 1px 10px #0005;
 }
 
+.sidebar-bottom
+{
+  position: fixed;
+  left: 2px;
+  right: 2px;
+  bottom: 5px;
+  width: 200px;
+}
+
 .logo-text
 {
   text-align: center;
