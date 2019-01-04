@@ -43,7 +43,7 @@ p
   top: 0px;
   left: 0px;
   bottom: 0px;
-  min-width: 200px;
+  width: 207px;
   /*width: 14.65%;*/
   background-color: #E91E63;
   color: white;
@@ -51,9 +51,21 @@ p
   background-image: repeating-linear-gradient(#E91E63, #DA2F74, #E91E63 100px);
 }
 
+#navbar
+{
+  position: fixed;
+  bottom: 0px;
+  left: 207px;
+  right: 0px;
+  height: 40px;
+  background-color: #E91E63;
+  background-image: linear-gradient(#E91E63, #DA2F74);
+  color: white;
+}
+
 #main
 {
-  margin-left: 200px;
+  margin-left: 207px;
   padding-left: 8px;
   padding-right: 8px;
   float: left;
@@ -73,7 +85,7 @@ p
   left: 2px;
   right: 2px;
   bottom: 5px;
-  width: 200px;
+  width: 203px;
 }
 
 .logo-text
@@ -102,6 +114,8 @@ p
   width: 100%;
   margin-top: 0px;
   margin-bottom: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 button
