@@ -94,19 +94,9 @@ a
   color: #EEEEEE;
 }
 
-.rotate
+.hidden
 {
-  -webkit-transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg);
-}
-
-.allign
-{
-  position: absolute;
-  height: auto;
-  width: auto;
-  margin-top: 100%;
-  left: -50%;
+  display: none;
 }
 
 .image-resize
@@ -114,31 +104,18 @@ a
   height: 40px;
 }
 
-.hidden
+.sidebar-bottom
 {
-  display: none;
-}
-
-.button-transparent
-{
-  background: none;
-  background-image: none;
-  border: none;
+  position: fixed;
+  left: 0px;
+  bottom: 5px;
+  width: 220px;
 }
 
 .sidebar-text
 {
   text-align: center;
   text-shadow: 1px 1px 10px #0005;
-}
-
-.sidebar-bottom
-{
-  position: fixed;
-  left: 2px;
-  right: 2px;
-  bottom: 5px;
-  width: 220px;
 }
 
 .logo-text
@@ -188,6 +165,13 @@ a
   text-align: center;
   width: 200px;
   margin: 0px;
+}
+
+.button-transparent
+{
+  background: none;
+  background-image: none;
+  border: none;
 }
 
 button
