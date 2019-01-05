@@ -109,6 +109,16 @@ p
   margin-bottom: 5px;
 }
 
+.centered-button
+{
+  float: right;
+  position: relative;
+  right: calc(50% - 100px);
+  text-align: center;
+  width: 200px;
+  margin: 0px;
+}
+
 button
 {
   font-family: 'Exo 2', sans-serif;
