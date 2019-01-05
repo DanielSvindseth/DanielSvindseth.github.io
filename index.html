@@ -3,9 +3,19 @@
   <head>
     <meta charset="utf-8">
     <title>Svindseth Home</title>
+    <!-- For IE <= 9 -->
     <!--[if IE]>
-    <meta HTTP-EQUIV="REFRESH" content="0; url=https://mozilla.com/firefox">
+    <script type="text/javascript">
+        window.location = "https://mozilla.com/firefox";
+    </script>
     <![endif]-->
+
+    <!-- For IE > 9 -->
+    <script type="text/javascript">
+        if (window.navigator.msPointerEnabled) {
+            window.location = "https://mozilla.com/firefox";
+        }
+    </script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Average" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
