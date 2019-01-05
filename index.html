@@ -12,14 +12,33 @@
   </head>
   <body>
     <div id="sidebar" class="sidebar-text">
-      <h2 class="logo-text">Svindseth</h2>
-      <h3 class="logo-text-smaller">Home</h3>
+      <h2 class="logo-text" onclick="location.href='https://svindseth.net'">Svindseth</h2>
+      <h3 class="logo-text-smaller" onclick="location.href='https://svindseth.net'">Home</h3>
 
       <div class="sidebar-bottom">
         <button class="sidebar-button" onclick="location.href='#'">Button!</button>
         <button class="sidebar-button" onclick="location.href='projects/index.html'">Projects</button>
         <button class="sidebar-button" onclick="location.href='presentations/index.html'">Presentations</button>
       </div>
+    </div>
+
+    <div id="socialbar">
+      <button class="socialbar-button button-transparent" onclick="location.href='https://github.com/danielgitar'">
+        <span class="span-text-margin">
+          <h2>Github</h2>
+        </span>
+        <span>
+          <img class="image-resize" src="images/social/github-logo.svg"/>
+        </span>
+      </button>
+      <button class="socialbar-button button-transparent" onclick="location.href='https://twitter.com/DanielGitar'">
+        <span class="span-text-margin">
+          <h2>Twitter</h2>
+        </span>
+        <span>
+          <img class="image-resize" src="images/social/twitter-logo.svg"/>
+        </span>
+      </button>
     </div>
 
     <div id="main">
@@ -31,6 +50,12 @@
       <p>git push?</p>
 
       <p>yes</p>
+
+    </div>
+
+    <div id="copyright">
+      <a href="copyright.html">Copyrights for elements on this site</a>
+      <!--<p>Social media icons are distributed under <a href="https://creativecommons.org/licenses/by/3.0/legalcode">the Creative Commons license (CC BY 3.0)</a></p>-->
     </div>
 
     <script type="text/javascript" src="js/scripts.js"></script>

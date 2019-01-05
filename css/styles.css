@@ -43,17 +43,45 @@ p
   font-family: 'Average', serif;
 }
 
+a
+{
+  text-decoration: none;
+  color: #E91E63;
+}
+
 #sidebar
 {
   position: fixed;
   top: 0px;
-  left: 0px;
   bottom: 0px;
+  left: 0px;
   height: 100vh;
   width: 220px;
   color: white;
   box-shadow: 1px 0px 2px #212121;
-  background-image: repeating-linear-gradient(#DA2F74FF, #E91E63FF);
+  background-image: linear-gradient(#DA2F74, #E91E63);
+}
+
+#socialbar
+{
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  height: 100vh;
+  width: 56px;
+  color: white;
+  box-shadow: -1px 0px 2px #212121;
+  background-image: linear-gradient(#DA2F74, #E91E63);
+}
+
+#copyright
+{
+  position: fixed;
+  bottom: 0px;
+  margin-left: 220px;
+  padding: 8px;
+  float: left;
 }
 
 #main
@@ -64,6 +92,38 @@ p
   float: left;
   /*background-color: #424242;*/
   color: #EEEEEE;
+}
+
+.rotate
+{
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+}
+
+.allign
+{
+  position: absolute;
+  height: auto;
+  width: auto;
+  margin-top: 100%;
+  left: -50%;
+}
+
+.image-resize
+{
+  height: 40px;
+}
+
+.hidden
+{
+  display: none;
+}
+
+.button-transparent
+{
+  background: none;
+  background-image: none;
+  border: none;
 }
 
 .sidebar-text
@@ -109,6 +169,17 @@ p
   margin-bottom: 5px;
 }
 
+.socialbar-button
+{
+  color: white;
+  height: 200px;
+  width: 56px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 .centered-button
 {
   float: right;
@@ -139,4 +210,16 @@ button:hover
 button:active
 {
   background-image: linear-gradient(#777, #999);
+}
+
+button span
+{
+  display: block;
+  transform: rotate(-90deg);
+}
+
+.span-text-margin
+{
+  margin-block-start: 80px;
+  margin-right: 4px;
 }
