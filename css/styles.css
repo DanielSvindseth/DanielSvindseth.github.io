@@ -3,7 +3,7 @@ html
 {
   background-image: linear-gradient(#424242, #212121 100vh);
   color: white;
-  height: 100vh;
+  height: 101vh;
 }
 
 body
@@ -49,10 +49,11 @@ p
   top: 0px;
   left: 0px;
   bottom: 0px;
+  height: 100vh;
   width: 220px;
   color: white;
   box-shadow: 1px 0px 2px #212121;
-  background-image: repeating-linear-gradient(#DA2F74, #E91E63);
+  background-image: repeating-linear-gradient(#DA2F74FF, #E91E63FF);
 }
 
 #main
@@ -127,5 +128,5 @@ button:hover
 
 button:active
 {
-  background-image: linear-gradient(#999, #BBB);
+  background-image: linear-gradient(#777, #999);
 }
