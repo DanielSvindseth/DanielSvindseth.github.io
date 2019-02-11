@@ -57,6 +57,13 @@ a
   color: #E91E63;
 }
 
+div-vertical
+{
+  text-decoration: none;
+  color: #E91E63;
+  writing-mode: vertical-rl;
+}
+
 #sidebar
 {
   position: fixed;
@@ -127,6 +134,12 @@ a
   bottom: 0px;
   height: 56px;
   width: 56px;
+}
+
+.upright
+{
+  text-orientation: upright;
+  text-transform: full-width;
 }
 
 .sidebar-text
