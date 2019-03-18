@@ -70,17 +70,17 @@ a
   float: right;
 }
 
-.card-important
+#card-important
 {
   background-color: red;
   color: white;
-  text-shadow: 2px 2px white;
+  text-shadow: 0px 0px 20px white;
   font-size: 32px;
 }
 
-#card
+.card
 {
-  width: 300px;
+  width: auto;
   height: 300px;
   background-color: white;
   border-radius: 4px;
@@ -97,7 +97,7 @@ a
   position: fixed;
   top: 0px;
   bottom: 0px;
-  right: 0px;
+  left: 0px;
   height: 100vh;
   width: 220px;
   color: white;
@@ -110,7 +110,7 @@ a
   position: fixed;
   top: 0px;
   bottom: 0px;
-  left: 0px;
+  right: 0px;
   height: 100vh;
   width: 56px;
   color: white;
@@ -129,8 +129,7 @@ a
 
 #main
 {
-  margin-right: 228px;
-  margin-left: 64px;
+  margin-left: 228px;
   margin-top: 8px;
   min-width: 440px;
   width: calc(100vw - 64px - 228px);
@@ -152,7 +151,7 @@ a
 .sidebar-bottom
 {
   position: fixed;
-  right: 0px;
+  left: 0px;
   bottom: 5px;
   width: 220px;
 }
@@ -160,7 +159,7 @@ a
 .socialbar-bottom
 {
   position: fixed;
-  left: 0px;
+  right: 0px;
   bottom: 0px;
   height: 56px;
   width: 56px;
