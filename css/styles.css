@@ -57,7 +57,7 @@ a
   color: #E91E63;
 }
 
-div-vertical
+.vertical
 {
   text-decoration: none;
   writing-mode: vertical-rl;
@@ -68,6 +68,14 @@ div-vertical
   position: relative;
   margin-right: 4px;
   float: right;
+}
+
+.card-important
+{
+  background-color: red;
+  color: white;
+  text-shadow: 2px 2px white;
+  font-size: 32px;
 }
 
 #card
@@ -250,7 +258,7 @@ button
   font-family: 'Exo 2', sans-serif;
   font-size: 16px;
   height: 48px;
-  border-radius: 4px;
+  border-radius: 32px;
   border-color: grey;
   background-image: linear-gradient(#FFF, #DDD);
   color: black;
