@@ -80,8 +80,8 @@ a
 
 .card
 {
-  width: auto;
-  height: 300px;
+  width: 100%;
+  height: auto;
   background-color: white;
   border-radius: 4px;
   border-color: black;
@@ -92,9 +92,19 @@ a
   display: inline-grid;
 }
 
-.card-double
+.card-short
 {
-  height: 612px;
+  height: 90px;
+}
+
+.card-medium
+{
+  height: 270px;
+}
+
+.card-tall
+{
+  height: 540px;
 }
 
 #sidebar
@@ -137,7 +147,7 @@ a
   margin-left: 228px;
   margin-top: 8px;
   min-width: 440px;
-  width: calc(100vw - 64px - 228px);
+  width: calc(100vw - 244px);
 
   /*background-color: #424242;*/
   color: #EEEEEE;
