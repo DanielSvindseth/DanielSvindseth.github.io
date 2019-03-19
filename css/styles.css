@@ -47,7 +47,7 @@ p
   padding-left: 0px;
   padding-right: 0px;
   margin: 0px;
-  font-size: 16px;
+  font-size: 24px;
   font-family: 'Average', serif;
 }
 
@@ -90,6 +90,11 @@ a
   margin-bottom: 12px;
   margin-right: 4px;
   display: inline-grid;
+}
+
+.card-double
+{
+  height: 612px;
 }
 
 #sidebar
