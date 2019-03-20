@@ -78,6 +78,25 @@ a
   font-size: 32px;
 }
 
+.card-clickable:hover
+{
+  background-color: #EEE;
+}
+
+.card-clickable
+{
+  width: 100%;
+  height: auto;
+  background-color: white;
+  border-radius: 4px;
+  border-color: black;
+  border-width: 4px;
+  color: black;
+  margin-bottom: 12px;
+  margin-right: 4px;
+  display: inline-grid;
+}
+
 .card
 {
   width: 100%;
