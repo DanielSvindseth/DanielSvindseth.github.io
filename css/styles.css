@@ -72,22 +72,18 @@ a
 
 #card-important
 {
-  background-color: red;
+  background-image: linear-gradient(#F22, #F00);
   color: white;
   text-shadow: 0px 0px 20px white;
   font-size: 32px;
-}
-
-.card-clickable:hover
-{
-  background-color: #EEE;
 }
 
 .card-clickable
 {
   width: 100%;
   height: auto;
-  background-color: white;
+  background-image: linear-gradient(#FFF, #DDD);
+  shadow: 0px 0px 2px black;
   border-radius: 4px;
   border-color: black;
   border-width: 4px;
@@ -97,11 +93,17 @@ a
   display: inline-grid;
 }
 
+.card-clickable:hover
+{
+  background: #DDD;
+}
+
 .card
 {
   width: 100%;
   height: auto;
-  background-color: white;
+  background-image: linear-gradient(#FFF, #DDD);
+  shadow: 0px 0px 2px black;
   border-radius: 4px;
   border-color: black;
   border-width: 4px;
