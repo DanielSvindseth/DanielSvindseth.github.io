@@ -293,7 +293,7 @@ button
   font-family: 'Exo 2', sans-serif;
   font-size: 16px;
   height: 48px;
-  border-radius: 32px;
+  border-radius: 8px;
   border-color: grey;
   background-image: linear-gradient(#FFF, #DDD);
   color: black;
