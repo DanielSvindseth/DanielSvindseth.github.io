@@ -86,42 +86,53 @@ a
   font-size: 32px;
 }
 
-.card-clickable
+.clickable
 {
-  width: 100%;
-  height: auto;
-  background-image: linear-gradient(#FFF, #DDD);
-  shadow: 0px 0px 2px black;
-  border-radius: 4px;
-  border-color: black;
-  border-width: 4px;
-  color: black;
-  margin-bottom: 12px;
-  margin-right: 4px;
-  display: inline-grid;
+
 }
 
-.card-clickable:hover
+.clickable:hover
 {
-  background: #DDD;
+  transform: scale(1.05);
 }
 
 .card-image
 {
-  height: 100%;
+  height: calc(100% - 82px);
+  width: 100%;
+  background-size: 100% 100%;
+}
+
+.card-text
+{
+  margin-left: 0px;
+  text-align: center;
+}
+
+.card-text-box
+{
+  height: 80px;
+  background-color: #DDDD;
+  background-size: 100% 80px;
+  padding-top: 4px;
+}
+
+.card-t9
+{
+  background-image: url("../images/t9.png");
+  background-size: 100% auto;
 }
 
 .card
 {
   width: calc(50% - 8px);
   height: 400px;
-  background-image: linear-gradient(#FFF, #DDD);
-  shadow: 0px 0px 2px black;
+  background-color: #DDD;
+  box-shadow: 0px 0px 8px black;
   border-radius: 2px;
   border-color: black;
   border-width: 4px;
   color: black;
-  display: inline-grid;
   margin: 4px;
 }
 
