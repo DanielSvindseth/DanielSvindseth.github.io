@@ -88,12 +88,12 @@ a
 
 .clickable
 {
-
+  transition: 0.2s;
 }
 
 .clickable:hover
 {
-  transform: scale(1.05);
+  transform: scale(1.01);
 }
 
 .card-image
@@ -117,10 +117,16 @@ a
   padding-top: 4px;
 }
 
+.card-vbmisjon
+{
+  float: right;
+}
+
 .card-t9
 {
   background-image: url("../images/t9.png");
   background-size: 100% auto;
+  float: left;
 }
 
 .card
