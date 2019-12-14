@@ -96,7 +96,7 @@ a
 
 .turnable:hover
 {
-  transform: rotateZ(1);
+  transform: rotateY(180deg);
 }
 
 .clickable
