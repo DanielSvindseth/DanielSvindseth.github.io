@@ -91,12 +91,13 @@ a
 
 .turnable
 {
-  transition: 0.4s;
+  transition: 0.8s;
 }
 
 .turnable:hover
 {
-  transform: rotateY(180deg);
+  transform: rotateZ(180deg);
+
 }
 
 .clickable
@@ -122,12 +123,54 @@ a
   text-align: center;
 }
 
+.question
+{
+  display: block;
+}
+
+.question:hover
+{
+  display: none;
+}
+
+.answer
+{
+  display: none;
+}
+
+.answer:hover
+{
+  display: block;
+}
+
 .card-text-box
 {
   height: 80px;
   background-color: #DDDD;
   background-size: 100% 80px;
   padding-top: 4px;
+}
+
+.group-left
+{
+  float: left;
+  width: 50vw;
+}
+
+.group-right
+{
+  float: right;
+  width: 50vw;
+}
+
+.card-left
+{
+  float: left;
+}
+
+.card-right
+{
+  float: right;
 }
 
 .card-website
