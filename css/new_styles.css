@@ -89,6 +89,16 @@ a
   font-size: 32px;
 }
 
+.turnable
+{
+  transition: 0.4s;
+}
+
+.turnable:hover
+{
+  transform: rotateZ(1);
+}
+
 .clickable
 {
   transition: 0.2s;
@@ -159,6 +169,11 @@ a
 .card-tall
 {
   height: 540px;
+}
+
+.card-thin
+{
+  width: calc(25% - 8px);
 }
 
 #header
