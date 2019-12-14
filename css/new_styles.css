@@ -91,7 +91,7 @@ a
 
 .turnable
 {
-  transition: 0.8s;
+  transition: 0.2s;
 }
 
 .turnable:active
@@ -121,6 +121,11 @@ a
 {
   margin-left: 0px;
   text-align: center;
+}
+
+.text-ud
+{
+  transform: rotateZ(180deg);
 }
 
 .question
