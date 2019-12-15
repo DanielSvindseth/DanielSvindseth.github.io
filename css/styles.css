@@ -291,6 +291,7 @@ i
   text-align: center;
   width: 200px;
   margin: 0px;
+  border-radius: 3px;
 }
 
 .button-transparent
