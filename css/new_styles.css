@@ -52,6 +52,16 @@ h3
   font-family: 'Exo 2', sans-serif;
 }
 
+h6
+{
+  padding: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 8px;
+  font-size: 60px;
+  font-family: 'Exo 2', sans-serif;
+}
+
 p
 {
   padding: 3px;
