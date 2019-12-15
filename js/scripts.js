@@ -3,10 +3,12 @@ function thm(){
   if (localStorage.theme==1){
     localStorage.setItem("theme", "2");
     document.getElementById('wow-theme').setAttribute('href', 'css/thm2.css');
+    return(0);
   }
   if (localStorage.theme==2){
     localStorage.setItem("theme", "3");
     document.getElementById('wow-theme').setAttribute('href', 'css/thm3.css');
+    return(0);
   }
   else {
     localStorage.setItem("theme", "1");
