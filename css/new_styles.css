@@ -101,7 +101,7 @@ a
 
 .turnable
 {
-  transition: 0.2s;
+  transition: 0.15s;
 }
 
 .turnable:active
@@ -160,7 +160,7 @@ a
 
 .c:active
 {
-  background-color: #079A;
+  background-color: #BBBA;
 }
 
 .c-text-box
@@ -193,15 +193,25 @@ a
   float: right;
 }
 
-.c-website
+.c-japan
 {
-
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Flag_of_Japan_%28bordered%29.svg/1280px-Flag_of_Japan_%28bordered%29.svg.png);
+  background-size: 100% auto;
+  background-position: bottom;
 }
 
 .c-t9
 {
   background-image: url("../images/t9.png");
   background-size: 100% auto;
+  background-position: bottom;
+}
+
+.c-old
+{
+  background-image: url("../images/old.png");
+  background-size: 100% auto;
+  background-position: bottom;
 }
 
 .c
@@ -215,7 +225,6 @@ a
   border-width: 4px;
   color: black;
   margin: 4px;
-  margin-bottom: 8px;
   overflow: hidden;
 }
 
@@ -246,6 +255,14 @@ a
 /*  background-image: repeating-linear-gradient(to right, #a00 0%, #aa0 17%, #0a0 33%, #0aa 50%, #00a 67%, #a0a 83%, #a00 100%);*/
   background-image: linear-gradient(to right, #a27 0%, #289 100%);
   box-shadow: 0px 0px 8px black;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+.header-box
+{
+  height: 83px;
 }
 
 .header-title
@@ -269,7 +286,7 @@ a
 .header-button
 {
   background-color: #0FF;
-  height: 51px;
+  height: 55px;
   width: 120px;
   display: block;
   position: fixed;
@@ -328,20 +345,22 @@ button
   font-size: 16px;
   height: 48px;
   border-radius: 3px;
-  border-color: grey;
-  background-image: linear-gradient(#CCC, #AAA);
-  color: black;
+  border-color: #178;
+  background-image: linear-gradient(#289, #279);
+  color: white;
 }
 
 button:hover
 {
   background: #B22;
+  border-color: #A11;
   color: white;
 }
 
 button:active
 {
-  background-image: linear-gradient(#777, #999);
+  background: #911;
+  border-color: #811;
 }
 
 button span
