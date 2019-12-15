@@ -75,14 +75,14 @@ i
   writing-mode: vertical-rl;
 }
 
-.card-rl
+.c-rl
 {
   position: relative;
   margin-right: 4px;
   float: right;
 }
 
-#card-important
+#c-important
 {
   background-image: linear-gradient(#F22, #F00);
   color: white;
@@ -90,7 +90,7 @@ i
   font-size: 32px;
 }
 
-.card-clickable
+.c-clickable
 {
   width: 100%;
   height: auto;
@@ -105,12 +105,12 @@ i
   display: inline-grid;
 }
 
-.card-clickable:hover
+.c-clickable:hover
 {
   background: #DDD;
 }
 
-.card
+.c
 {
   width: 100%;
   height: auto;
@@ -125,17 +125,17 @@ i
   display: inline-grid;
 }
 
-.card-short
+.c-short
 {
   height: 90px;
 }
 
-.card-medium
+.c-medium
 {
   height: 270px;
 }
 
-.card-tall
+.c-tall
 {
   height: 540px;
 }

@@ -74,14 +74,14 @@ a
   writing-mode: vertical-rl;
 }
 
-.card-rl
+.c-rl
 {
   position: relative;
   margin-right: 4px;
   float: right;
 }
 
-#card-important
+#c-important
 {
   background-image: linear-gradient(#F22, #F00);
   color: white;
@@ -110,14 +110,14 @@ a
   transform: scale(1.01);
 }
 
-.card-image
+.c-image
 {
   height: calc(100% - 82px);
   width: 100%;
   background-size: 100% 100%;
 }
 
-.card-text
+.c-text
 {
   margin-left: 0px;
   text-align: center;
@@ -133,7 +133,7 @@ a
   display: block;
 }
 
-.card:active .question
+.c:active .question
 {
   display: none;
 }
@@ -143,12 +143,12 @@ a
   display: none;
 }
 
-.card:active .answer
+.c:active .answer
 {
   display: block;
 }
 
-.card-text-box
+.c-text-box
 {
   height: 80px;
   background-color: #DDDD;
@@ -168,29 +168,29 @@ a
   width: 50vw;
 }
 
-.card-left
+.c-left
 {
   float: left;
 }
 
-.card-right
+.c-right
 {
   float: right;
 }
 
-.card-website
+.c-website
 {
   float: right;
 }
 
-.card-t9
+.c-t9
 {
   background-image: url("../images/t9.png");
   background-size: 100% auto;
   float: left;
 }
 
-.card
+.c
 {
   width: calc(50% - 8px);
   height: 400px;
@@ -204,22 +204,22 @@ a
   margin-bottom: 8px;
 }
 
-.card-short
+.c-short
 {
   height: 90px;
 }
 
-.card-medium
+.c-medium
 {
   height: 270px;
 }
 
-.card-tall
+.c-tall
 {
   height: 540px;
 }
 
-.card-thin
+.c-thin
 {
   width: calc(25% - 8px);
 }

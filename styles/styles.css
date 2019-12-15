@@ -25,7 +25,7 @@
   color: white;
 }
 
-.card
+.c
 {
   margin: 8px;
   width: calc(50vw - 16px);
@@ -35,7 +35,7 @@
   transition: 0.3s;
 }
 
-.card:hover
+.c:hover
 {
   background-color: #eee;
   transition: 0.3s;
