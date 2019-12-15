@@ -1,9 +1,6 @@
 
 html
 {
-  /*background-image: linear-gradient(#424242, #313131 100vh);*/
-  background-color: #323232;
-  color: white;
   height: 100vh;
 }
 
@@ -75,7 +72,6 @@ p
 a
 {
   text-decoration: none;
-  color: #E91E63;
 }
 
 .vertical
@@ -93,9 +89,6 @@ a
 
 #c-important
 {
-  background-image: linear-gradient(#F22, #F00);
-  color: white;
-  text-shadow: 0px 0px 20px white;
   font-size: 32px;
 }
 
@@ -157,15 +150,9 @@ a
   display: block;
 }
 
-.c:active
-{
-  background-color: #BBBA;
-}
-
 .c-text-box
 {
   height: 80px;
-  background-color: #DDDD;
   background-size: 100% 80px;
   padding-top: 4px;
 }
@@ -228,12 +215,7 @@ a
 {
   width: calc(50% - 8px);
   height: 400px;
-  background-color: #DDD;
-  box-shadow: 0px 0px 8px black;
-  border-radius: 3px;
-  border-color: black;
   border-width: 4px;
-  color: black;
   margin: 4px;
   overflow: hidden;
 }
@@ -262,7 +244,6 @@ a
 {
   width: 100%;
   height: auto;
-/*  background-image: repeating-linear-gradient(to right, #a00 0%, #aa0 17%, #0a0 33%, #0aa 50%, #00a 67%, #a0a 83%, #a00 100%);*/
   background-image: linear-gradient(to right, #a27 0%, #289 100%);
   box-shadow: 0px 0px 8px black;
   position: fixed;
@@ -281,8 +262,6 @@ a
   text-align: center;
   margin-top: 0px;
   margin-bottom: 5px;
-  color: white;
-  text-shadow: 0px 0px 4px black;
   font-size: 40px;
 }
 
@@ -290,13 +269,10 @@ a
 {
   text-align: center;
   padding-bottom: 4px;
-  color: white;
-  text-shadow: 0px 0px 4px black;
 }
 
 .header-button-back
 {
-  background-color: #0FF;
   height: 55px;
   width: 120px;
   display: block;
@@ -307,7 +283,6 @@ a
 
 .header-button-copyright
 {
-  background-color: #0FF;
   height: 55px;
   width: 120px;
   display: block;
@@ -327,12 +302,6 @@ a
   text-transform: full-width;
 }
 
-.sidebar-text
-{
-  text-align: center;
-  text-shadow: 1px 1px 10px #0005;
-}
-
 .logo-text
 {
   text-align: center;
@@ -341,17 +310,6 @@ a
   font-size: 40px;
   margin-top: 0px;
   margin-bottom: 5px;
-}
-
-.sidebar-button
-{
-  color: #212121;
-  height: 48px;
-  width: 202px;
-  margin-top: 0px;
-  margin-bottom: 4px;
-  margin-left: 0px;
-  text-align: center;
 }
 
 .button-transparent
@@ -366,23 +324,6 @@ button
   font-family: 'Exo 2', sans-serif;
   font-size: 16px;
   height: 48px;
-  border-radius: 3px;
-  border-color: #178;
-  background-image: linear-gradient(#289, #279);
-  color: white;
-}
-
-button:hover
-{
-  background: #B22;
-  border-color: #A11;
-  color: white;
-}
-
-button:active
-{
-  background: #911;
-  border-color: #811;
 }
 
 button span
