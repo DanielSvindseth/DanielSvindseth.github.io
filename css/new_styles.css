@@ -212,6 +212,7 @@ a
   color: black;
   margin: 4px;
   margin-bottom: 8px;
+  overflow: hidden;
 }
 
 .c-short
