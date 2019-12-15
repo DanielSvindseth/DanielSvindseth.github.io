@@ -196,21 +196,24 @@ a
 {
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Flag_of_Japan_%28bordered%29.svg/1280px-Flag_of_Japan_%28bordered%29.svg.png);
   background-size: 100% auto;
-  background-position: bottom;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .c-t9
 {
   background-image: url("../images/t9.png");
   background-size: 100% auto;
-  background-position: bottom;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .c-old
 {
   background-image: url("../images/old.png");
   background-size: 100% auto;
-  background-position: bottom;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .c-twitter
