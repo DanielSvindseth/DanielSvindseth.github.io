@@ -12,9 +12,6 @@ function thm(){
     localStorage.setItem("theme", "1");
     document.getElementById('wow-theme').setAttribute('href', 'css/thm1.css');
   }
-  else {
-    break;
-  }
 }
 
 function loadTheme(){
