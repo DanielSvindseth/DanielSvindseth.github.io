@@ -8,7 +8,7 @@ function thm(){
     localStorage.setItem("theme", "3");
     document.getElementById('wow-theme').setAttribute('href', 'css/thm3.css');
   }
-  if (localStorage.theme==3){
+  else {
     localStorage.setItem("theme", "1");
     document.getElementById('wow-theme').setAttribute('href', 'css/thm1.css');
   }
