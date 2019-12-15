@@ -173,13 +173,13 @@ a
 .group-left
 {
   float: left;
-  width: 50vw;
+  width: 50%;
 }
 
 .group-right
 {
   float: right;
-  width: 50vw;
+  width: 50%;
 }
 
 .c-left
