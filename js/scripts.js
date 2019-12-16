@@ -1,11 +1,11 @@
 //much java such script
 function thm(){
-  if (localStorage.theme==1){
+  if (localStorage.theme==1) {
     localStorage.setItem("theme", "2");
     document.getElementById('wow-theme').setAttribute('href', 'css/thm2.css');
     return(0);
   }
-  if (localStorage.theme==2){
+  if (localStorage.theme==2) {
     localStorage.setItem("theme", "3");
     document.getElementById('wow-theme').setAttribute('href', 'css/thm3.css');
     return(0);
@@ -23,13 +23,18 @@ function loadTheme(){
   if (localStorage.theme==2) {
     document.getElementById('wow-theme').setAttribute('href', 'css/thm2.css');
   }
-  else {
+  if (localStorage.theme==3) {
     document.getElementById('wow-theme').setAttribute('href', 'css/thm3.css');
+  }
+  else {
+    return(0);
   }
 }
 
 function firstVisit(){
   if (localStorage.prevVisit!=1) {
+    document.getElementById('wow-theme').setAttribute('href', 'css/thm1.css');
+    localStorage.setItem("theme", "1");
     alert("This site uses cookies! By using this site you agree to saving a few bits in localStorage");
     localStorage.setItem("prevVisit", "1")
   }
