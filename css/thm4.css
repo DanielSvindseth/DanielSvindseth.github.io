@@ -1,6 +1,6 @@
 html
 {
-  background-color: lightgrey;
+  background-color: grey;
   color: white;
 }
 
@@ -16,23 +16,28 @@ a
   text-shadow: 0px 0px 20px white;
 }
 
+.turnable
+{
+  transition: 0.8s;
+}
+
 .c:active
 {
-  background-color: #BBBA;
+  background-color: #111a;
 }
 
 .c-text-box
 {
-  background-color: #DDDD;
+  background-color: #0008;
 }
 
 .c
 {
-  background-color: #DDD;
+  background-color: #111a;
   box-shadow: 0px 0px 8px black;
   border-radius: 3px;
   border-color;
-  color: black;
+  color: white;
 }
 
 #header
@@ -44,13 +49,13 @@ a
 .header-title
 {
   color: white;
-  text-shadow: 0px 0px 4px white;
+  text-shadow: 0px 0px 4px lightgrey;
 }
 
 .header-subtitle
 {
   color: white;
-  text-shadow: 0px 0px 4px white;
+  text-shadow: 0px 0px 4px lightgrey;
 }
 
 .header-button-back
