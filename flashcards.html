@@ -8,8 +8,14 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/new_styles.css">
     <link rel="stylesheet" id="wow-theme" href="css/thm1.css">
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script type="text/javascript" src="js/flashcards-strings.js"></script>
+    <script type="text/javascript" src="flashcards/set1.js" id="currentSet"></script>
   </head>
-  <body onload="loadTheme();">
+
+
+
+  <body onload="loadTheme(); loadSet();">
     <div id="header">
       <button class="header-button-back" onclick="location.href='index.html'">Back</button>
       <h1 class="header-title" id="flTitle"></h1>
@@ -225,8 +231,9 @@
       </div>
     </div>
 
+    <button type="button" name="button" onclick="switchSet();">Switch</button>
+
   </body>
-  <script type="text/javascript" src="js/scripts.js"></script>
-  <script type="text/javascript" src="js/flashcards-strings.js"></script>
-  <script type="text/javascript" src="flashcards/set1.js"></script>
+
+
 </html>

@@ -1,5 +1,5 @@
 //much java such script
-function thm(){
+function switchTheme(){
   if (localStorage.theme==1) {
     localStorage.setItem("theme", "2");
     document.getElementById('wow-theme').setAttribute('href', 'css/thm2.css');
@@ -21,6 +21,28 @@ function thm(){
   }
 }
 
+function switchSet(){
+  if (localStorage.flashcardset==1) {
+    localStorage.setItem("flashcardset", "2");
+    document.getElementById('currentSet').setAttribute('src', 'flashcards/set2.js');
+    return(0);
+  }
+  if (localStorage.flashcardset==2) {
+    localStorage.setItem("flashcardset", "3");
+    document.getElementById('currentSet').setAttribute('src', 'flashcards/set3.js');
+    return(0);
+  }
+  if (localStorage.flashcardset==3) {
+    localStorage.setItem("flashcardset", "4");
+    document.getElementById('currentSet').setAttribute('src', 'flashcards/set4.js');
+    return(0);
+  }
+  else {
+    localStorage.setItem("flashcardset", "1");
+    document.getElementById('currentSet').setAttribute('src', 'flashcards/set1.js');
+  }
+}
+
 function loadTheme(){
   if (localStorage.theme==1) {
     document.getElementById('wow-theme').setAttribute('href', 'css/thm1.css');
@@ -33,6 +55,28 @@ function loadTheme(){
   }
   if (localStorage.theme==4) {
     document.getElementById('wow-theme').setAttribute('href', 'css/thm4.css');
+  }
+  else {
+    return(0);
+  }
+}
+
+function loadSet(){
+  if (localStorage.flashcardset==1) {
+    document.getElementById('currentSet').setAttribute('src', 'flashcards/set1.js');
+
+  }
+  if (localStorage.flashcardset==2) {
+    document.getElementById('currentSet').setAttribute('src', 'flashcards/set1.js');
+
+  }
+  if (localStorage.flashcardset==3) {
+    document.getElementById('currentSet').setAttribute('src', 'flashcards/set1.js');
+
+  }
+  if (localStorage.flashcardset==4) {
+    document.getElementById('currentSet').setAttribute('src', 'flashcards/set1.js');
+
   }
   else {
     return(0);
