@@ -12,8 +12,8 @@
   <body onload="loadTheme();">
     <div id="header">
       <button class="header-button-back" onclick="location.href='index.html'">Back</button>
-      <h1 class="header-title">Japanese Flashcards</h1>
-      <h3 class="header-subtitle">Here you can practice your Japanese!</h3>
+      <h1 class="header-title" id="flTitle"></h1>
+      <h3 class="header-subtitle" id="flSubtitle"></h3>
 
     </div>
     <div class="header-box">
@@ -23,40 +23,40 @@
     <div class="group-left">
       <div class="c c-short c-left turnable">
         <div class="c-text-box question">
-          <h6 class="c-text">何</h6>
+          <h6 class="c-text" id="r1c1q"></h6>
         </div>
         <div class="c-text-box answer">
-          <h2 class="c-text text-ud">What?</h2>
-          <h2 class="c-text text-ud">なに</h2>
+          <h2 class="c-text text-ud" id="r1c1a1"></h2>
+          <h2 class="c-text text-ud" id="r1c1a2"></h2>
         </div>
       </div>
       <div class="c c-short c-left turnable">
         <div class="c-text-box question">
-          <h6 class="c-text">気</h6>
+          <h6 class="c-text" id="r1c2q"></h6>
         </div>
         <div class="c-text-box answer">
-          <h2 class="c-text text-ud">Soul</h2>
-          <h2 class="c-text text-ud">き</h2>
+          <h2 class="c-text text-ud" id="r1c2a1"></h2>
+          <h2 class="c-text text-ud" id="r1c2a2"></h2>
         </div>
       </div>
     </div>
     <div class="group-right">
       <div class="c c-short c-left turnable">
         <div class="c-text-box question">
-          <h6 class="c-text">男</h6>
+          <h6 class="c-text" id="r1c3q"></h6>
         </div>
         <div class="c-text-box answer">
-          <h2 class="c-text text-ud">Man</h2>
-          <h2 class="c-text text-ud">おとこ</h2>
+          <h2 class="c-text text-ud" id="r1c3a1"></h2>
+          <h2 class="c-text text-ud" id="r1c3a2"></h2>
         </div>
       </div>
       <div class="c c-short c-left turnable">
         <div class="c-text-box question">
-          <h6 class="c-text">女</h6>
+          <h6 class="c-text" id="r1c4q"></h6>
         </div>
         <div class="c-text-box answer">
-          <h2 class="c-text text-ud">Woman</h2>
-          <h2 class="c-text text-ud">おんな</h2>
+          <h2 class="c-text text-ud" id="r1c4a1"></h2>
+          <h2 class="c-text text-ud" id="r1c4a2"></h2>
         </div>
       </div>
     </div>
@@ -64,40 +64,40 @@
     <div class="group-left">
       <div class="c c-short c-left turnable">
         <div class="c-text-box question">
-          <h6 class="c-text">人</h6>
+          <h6 class="c-text" id="r2c1q"></h6>
         </div>
         <div class="c-text-box answer">
-          <h2 class="c-text text-ud">Person</h2>
-          <h2 class="c-text text-ud">ひと</h2>
+          <h2 class="c-text text-ud" id="r2c1a1"></h2>
+          <h2 class="c-text text-ud" id="r2c1a2"></h2>
         </div>
       </div>
       <div class="c c-short c-left turnable">
         <div class="c-text-box question">
-          <h6 class="c-text">日</h6>
+          <h6 class="c-text" id="r2c2q"></h6>
         </div>
         <div class="c-text-box answer">
-          <h2 class="c-text text-ud">Day</h2>
-          <h2 class="c-text text-ud">ひ</h2>
+          <h2 class="c-text text-ud" id="r2c2a1"></h2>
+          <h2 class="c-text text-ud" id="r2c2a2"></h2>
         </div>
       </div>
     </div>
     <div class="group-right">
       <div class="c c-short c-left turnable">
         <div class="c-text-box question">
-          <h6 class="c-text">朝</h6>
+          <h6 class="c-text" id="r2c3q"></h6>
         </div>
         <div class="c-text-box answer">
-          <h2 class="c-text text-ud">Morning</h2>
-          <h2 class="c-text text-ud">あさ</h2>
+          <h2 class="c-text text-ud" id="r2c3a1"></h2>
+          <h2 class="c-text text-ud" id="r2c3a2"></h2>
         </div>
       </div>
       <div class="c c-short c-left turnable">
         <div class="c-text-box question">
-          <h6 class="c-text">昼</h6>
+          <h6 class="c-text" id="r2c4q"></h6>
         </div>
         <div class="c-text-box answer">
-          <h2 class="c-text text-ud">Mid-day</h2>
-          <h2 class="c-text text-ud">ひる</h2>
+          <h2 class="c-text text-ud" id="r2c4a1"></h2>
+          <h2 class="c-text text-ud" id="r2c4a2"></h2>
         </div>
       </div>
     </div>
@@ -105,40 +105,40 @@
     <div class="group-left">
       <div class="c c-short c-left turnable">
         <div class="c-text-box question">
-          <h6 class="c-text">晩</h6>
+          <h6 class="c-text" id="r3c1q"></h6>
         </div>
         <div class="c-text-box answer">
-          <h2 class="c-text text-ud">Evening</h2>
-          <h2 class="c-text text-ud">ばん</h2>
+          <h2 class="c-text text-ud" id="r3c1a1"></h2>
+          <h2 class="c-text text-ud" id="r3c1a2"></h2>
         </div>
       </div>
       <div class="c c-short c-left turnable">
         <div class="c-text-box question">
-          <h6 class="c-text">夜</h6>
+          <h6 class="c-text" id="r3c2q"></h6>
         </div>
         <div class="c-text-box answer">
-          <h2 class="c-text text-ud">Night</h2>
-          <h2 class="c-text text-ud">よる</h2>
+          <h2 class="c-text text-ud" id="r3c2a1"></h2>
+          <h2 class="c-text text-ud" id="r3c2a2"></h2>
         </div>
       </div>
     </div>
     <div class="group-right">
       <div class="c c-short c-left turnable">
         <div class="c-text-box question">
-          <h6 class="c-text">月</h6>
+          <h6 class="c-text" id="r3c3q"></h6>
         </div>
         <div class="c-text-box answer">
-          <h2 class="c-text text-ud">Month</h2>
-          <h2 class="c-text text-ud">げつ</h2>
+          <h2 class="c-text text-ud" id="r3c3a1"></h2>
+          <h2 class="c-text text-ud" id="r3c3a2"></h2>
         </div>
       </div>
       <div class="c c-short c-left turnable">
         <div class="c-text-box question">
-          <h6 class="c-text">年</h6>
+          <h6 class="c-text" id="r3c4q"></h6>
         </div>
         <div class="c-text-box answer">
-          <h2 class="c-text text-ud">Year</h2>
-          <h2 class="c-text text-ud">とし</h2>
+          <h2 class="c-text text-ud" id="r3c4a1"></h2>
+          <h2 class="c-text text-ud" id="r3c4a2"></h2>
         </div>
       </div>
     </div>
@@ -146,40 +146,40 @@
     <div class="group-left">
       <div class="c c-short c-left turnable">
         <div class="c-text-box question">
-          <h6 class="c-text">木</h6>
+          <h6 class="c-text" id="r4c1q"></h6>
         </div>
         <div class="c-text-box answer">
-          <h2 class="c-text text-ud">Tree</h2>
-          <h2 class="c-text text-ud">き</h2>
+          <h2 class="c-text text-ud" id="r4c1a1"></h2>
+          <h2 class="c-text text-ud" id="r4c1a2"></h2>
         </div>
       </div>
       <div class="c c-short c-left turnable">
         <div class="c-text-box question">
-          <h6 class="c-text">水</h6>
+          <h6 class="c-text" id="r4c2q"></h6>
         </div>
         <div class="c-text-box answer">
-          <h2 class="c-text text-ud">Water</h2>
-          <h2 class="c-text text-ud">みず</h2>
+          <h2 class="c-text text-ud" id="r4c2a1"></h2>
+          <h2 class="c-text text-ud" id="r4c2a2"></h2>
         </div>
       </div>
     </div>
     <div class="group-right">
       <div class="c c-short c-left turnable">
         <div class="c-text-box question">
-          <h6 class="c-text">火</h6>
+          <h6 class="c-text" id="r4c3q"></h6>
         </div>
         <div class="c-text-box answer">
-          <h2 class="c-text text-ud">Fire</h2>
-          <h2 class="c-text text-ud">か</h2>
+          <h2 class="c-text text-ud" id="r4c3a1"></h2>
+          <h2 class="c-text text-ud" id="r4c3a2"></h2>
         </div>
       </div>
       <div class="c c-short c-left turnable">
         <div class="c-text-box question">
-          <h6 class="c-text">本</h6>
+          <h6 class="c-text" id="r4c4q"></h6>
         </div>
         <div class="c-text-box answer">
-          <h2 class="c-text text-ud">Book</h2>
-          <h2 class="c-text text-ud">ほん</h2>
+          <h2 class="c-text text-ud" id="r4c4a1"></h2>
+          <h2 class="c-text text-ud" id="r4c4a2"></h2>
         </div>
       </div>
     </div>
@@ -187,46 +187,46 @@
     <div class="group-left">
       <div class="c c-short c-left turnable">
         <div class="c-text-box question">
-          <h6 class="c-text">番組</h6>
+          <h6 class="c-text" id="r5c1q"></h6>
         </div>
         <div class="c-text-box answer">
-          <h2 class="c-text text-ud">Program</h2>
-          <h2 class="c-text text-ud">ばんぐみ</h2>
+          <h2 class="c-text text-ud" id="r5c1a1"></h2>
+          <h2 class="c-text text-ud" id="r5c1a2"></h2>
         </div>
       </div>
       <div class="c c-short c-left turnable">
         <div class="c-text-box question">
-          <h6 class="c-text">学期</h6>
+          <h6 class="c-text" id="r5c2q"></h6>
         </div>
         <div class="c-text-box answer">
-          <h2 class="c-text text-ud">Semester</h2>
-          <h2 class="c-text text-ud">がっき</h2>
+          <h2 class="c-text text-ud" id="r5c2a1"></h2>
+          <h2 class="c-text text-ud" id="r5c2a2"></h2>
         </div>
       </div>
     </div>
     <div class="group-right">
       <div class="c c-short c-left turnable">
         <div class="c-text-box question">
-          <h6 class="c-text">美味しい</h6>
+          <h6 class="c-text" id="r5c3q"></h6>
         </div>
         <div class="c-text-box answer">
-          <h2 class="c-text text-ud">Delicious</h2>
-          <h2 class="c-text text-ud">おいしい</h2>
+          <h2 class="c-text text-ud" id="r5c3a1"></h2>
+          <h2 class="c-text text-ud" id="r5c3a2"></h2>
         </div>
       </div>
       <div class="c c-short c-left turnable">
         <div class="c-text-box question">
-          <h6 class="c-text">楽しい</h6>
+          <h6 class="c-text" id="r5c4q"></h6>
         </div>
         <div class="c-text-box answer">
-          <h2 class="c-text text-ud">Fun/Interesting</h2>
-          <h2 class="c-text text-ud">たのしい</h2>
+          <h2 class="c-text text-ud" id="r5c4a1"></h2>
+          <h2 class="c-text text-ud" id="r5c4a2"></h2>
         </div>
       </div>
     </div>
 
   </body>
-  <script type="text/javascript" src="js/scripts.js">
-
-  </script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+  <script type="text/javascript" src="js/flashcards-strings.js"></script>
+  <script type="text/javascript" src="flashcards/set1.js"></script>
 </html>

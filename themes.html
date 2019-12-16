@@ -12,10 +12,10 @@
   <body onload="loadTheme(); firstVisit();">
 
     <div id="header">
-      <button class="header-button-back" onclick="location.href='index.html'">Back</button>
-      <button class="header-button-copyright" onclick="thm();">Change Theme</button>
-      <h1 class="header-title">Change Your Theme</h1>
-      <h3 class="header-subtitle">much color</h3>
+      <button class="header-button-back" onclick="location.href='index.html'" id="thBack"></button>
+      <button class="header-button-copyright" onclick="thm();" id="thChangeTheme"></button>
+      <h1 class="header-title" id="thTitle"></h1>
+      <h3 class="header-subtitle" id="thSubtitle"></h3>
     </div>
     <div class="header-box"></div>
 
@@ -37,7 +37,7 @@
     </div>
 
   </body>
-  <script type="text/javascript" src="js/scripts.js">
+  <script type="text/javascript" src="js/scripts.js"></script>
+  <script type="text/javascript" src="js/themes-strings.js"></script>
 
-  </script>
 </html>
