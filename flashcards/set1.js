@@ -1,5 +1,5 @@
 //Row 1
-document.getElementById("r1c1q").innerHTML = "1";
+document.getElementById("r1c1q").innerHTML = "1000";
 document.getElementById("r1c1a1").innerHTML = "";
 document.getElementById("r1c1a2").innerHTML = "";
 

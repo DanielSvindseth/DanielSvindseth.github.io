@@ -7,7 +7,7 @@ document.getElementById("r1c2q").innerHTML = "2";
 document.getElementById("r1c2a1").innerHTML = "";
 document.getElementById("r1c2a2").innerHTML = "";
 
-document.getElementById("r1c3q").innerHTML = "3";
+document.getElementById("r1c3q").innerHTML = "meh";
 document.getElementById("r1c3a1").innerHTML = "";
 document.getElementById("r1c3a2").innerHTML = "";
 
