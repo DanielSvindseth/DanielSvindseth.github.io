@@ -1,4 +1,4 @@
-function start(){
+function start3(){
   //Row 1
   document.getElementById("r1c1q").innerHTML = "0";
   document.getElementById("r1c1a1").innerHTML = "";
