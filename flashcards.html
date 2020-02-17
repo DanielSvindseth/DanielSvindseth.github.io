@@ -12,7 +12,7 @@
 
 
 
-  <body onload="loadTheme(); loadSet();">
+  <body onload="loadTheme(); loadSet(); startGame;">
     <div id="header">
       <button class="header-button-back" onclick="location.href='index.html'">Back</button>
       <h1 class="header-title" id="flTitle"></h1>
@@ -22,10 +22,10 @@
 
     <div class="group-left">
       <div class="c c-short c-left" onclick="location.href='flashcards/set1.html'">
-
+        <h2>Cards</h2>
       </div>
-      <div class="c c-short c-right">
-
+      <div class="c c-short c-right" onclick="startGame();">
+        <h2>Game 1</h2>
       </div>
     </div>
     <div class="group-right">
@@ -42,6 +42,7 @@
 
   <script type="text/javascript" src="js/flashcards-strings.js"></script>
   <script type="text/javascript" src="js/scripts.js"></script>
+  <script type="text/javascript" src="js/game.js"></script>
 
 
 </html>
