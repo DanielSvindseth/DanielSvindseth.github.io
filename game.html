@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Flashcards</title>
+    <link href="https://fonts.googleapis.com/css?family=Average" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/game.css">
+    <link rel="stylesheet" id="wow-theme" href="css/thm1.css">
+  </head>
+  <body onload="loadTheme(); loadSet(); startGame;">
+    <button type="button" name="button" onclick="location.href='index.html'">Back</button>
+    <button type="button" name="button" onmousedown="accelerate(-0.5)" onmouseup="vel(0.5)">UP!</button>
+    <button type="button" name="button" onclick="startGame();">Start!</button>
+
+  </body>
+  <script type="text/javascript" src="js/scripts.js"></script>
+  <script type="text/javascript" src="js/game.js"></script>
+</html>
