@@ -1,0 +1,36 @@
+html,body {
+  background-image: radial-gradient(#DA2F74FF, #E91E63FF 100vh);
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  height: 80vh;
+  line-height: 100vh;
+  font-size: 72px;
+  margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.back-button {
+  height: 70px;
+  width: 180px;
+  margin-left: calc(50% - 90px);
+  margin-right: calc(50% - 90px);
+  background-color: white;
+  border: lightgray solid 2px;
+  border-radius: 4px;
+}
+
+.back-button:hover {
+  background-color: lightgray;
+  border: darkcyan solid 2px;
+  border-radius: 4px;
+}
+
+.back-button:active {
+  background-color: darkcyan;
+  color: white;
+}
