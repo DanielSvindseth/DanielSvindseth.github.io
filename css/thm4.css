@@ -1,6 +1,6 @@
 html
 {
-  background-color: grey;
+  background-color: #333;
   color: white;
 }
 
@@ -33,7 +33,7 @@ a
 
 .c
 {
-  background-color: #111a;
+  background-color: white;
   box-shadow: 0px 0px 8px black;
   border-radius: 3px;
   border-color;
@@ -42,7 +42,8 @@ a
 
 #header
 {
-  background-image: linear-gradient(to right, red 0%, yellow 20%, lightgreen 40%, cyan 60%, blue 80%, violet 100%);
+/*  background-image: linear-gradient(to right, red 0%, yellow 20%, lightgreen 40%, cyan 60%, blue 80%, violet 100%);*/
+/*  background-image: linear-gradient(to right, rgba();*/
   box-shadow: 0px 0px 8px black;
 }
 
@@ -81,6 +82,7 @@ button:hover
   background-image: linear-gradient(#e51d98, #ce1a89);
   border-color: black;
   color: white;
+  cursor: context-menu;
 }
 
 button:active
