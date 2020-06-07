@@ -23,7 +23,7 @@ a
 
 .c:active
 {
-  background-color: #111a;
+  filter: opacity(0.8);
 }
 
 .c-text-box
@@ -61,25 +61,25 @@ a
 
 .header-button-back
 {
-  background-color: #0FF;
+/*  background-color: #0FF;*/
 }
 
 .header-button-copyright
 {
-  background-color: #0FF;
+/*  background-color: #0FF;*/
 }
 
 button
 {
   border-radius: 3px;
   border-color: white;
-  background-image: linear-gradient(#e51d98, #ce1a89);
+/*  background-image: linear-gradient(#e51d98, #ce1a89);*/
   color: white;
 }
 
 button:hover
 {
-  background-image: linear-gradient(#e51d98, #ce1a89);
+/*  background-image: linear-gradient(#e51d98, #ce1a89);*/
   border-color: black;
   color: white;
   cursor: context-menu;
@@ -87,7 +87,7 @@ button:hover
 
 button:active
 {
-  background-image: linear-gradient(#e51d98, #ce1a89);
+/*  background-image: linear-gradient(#e51d98, #ce1a89);*/
   border-color: black;
   color: black;
 }

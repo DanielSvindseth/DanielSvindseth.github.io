@@ -66,6 +66,13 @@ a {
   text-decoration: none;
 }
 
+#cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 .vertical {
   text-decoration: none;
   writing-mode: vertical-rl;
@@ -157,7 +164,7 @@ a {
 .c-karolinefoto {
   background-image: url("../images/karolinefoto.jpg");
   background-size: 100% auto;
-  background-position: bottom;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -182,9 +189,16 @@ a {
   background-repeat: no-repeat;
 }
 
+.c-github {
+  background-image: url("../images/social/github-logo.svg");
+  background-size: 40% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .c {
-  width: calc(50% - 16px);
-  height: 400px;
+  width: 450px;
+  height: 250px;
   border: solid darkgray 4px;
   margin: 4px;
   overflow: hidden;
@@ -215,6 +229,7 @@ a {
   top: 0px;
   left: 0px;
   z-index: 2;
+/*  filter: blur(2px);*/
 }
 
 .header-box {
@@ -226,11 +241,13 @@ a {
   margin-top: 0px;
   margin-bottom: 5px;
   font-size: 40px;
+  font-family: 'Operator Mono Medium Italic', sans-serif;
 }
 
 .header-subtitle {
   text-align: center;
   padding-bottom: 4px;
+  font-family: 'Operator Mono Book Italic', sans-serif;
 }
 
 .header-button-back {

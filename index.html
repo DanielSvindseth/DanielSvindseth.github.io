@@ -3,14 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>Svindseth Home</title>
+    <link rel="shortcut icon" href="images/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Average" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" id="wow-theme" href="css/thm1.css">
     <meta name="wot-verification" content="166882ff3af400d8952e"/>
   </head>
-  <body onload="loadTheme(); firstVisit(); chooseHeaderColor1();">
+  <body onload="loadTheme(); firstVisit(); chooseHeaderColor1(); chooseButtonColor();">
 
     <div id="header">
       <button class="header-button-back" onclick="location.href='themes.html'" id="inThemes"></button>
@@ -18,55 +20,54 @@
       <h1 class="header-title" id="inTitle"></h1>
       <h3 class="header-subtitle" id="inSubtitle"></h3>
     </div>
-    <div class="header-box">
+    <div class="header-box"></div>
 
+    <div id="cards">
+      <div class="c c-karolinefoto clickable" onclick="location.href='https://karolinefoto.com'">
+        <div class="c-image"></div>
+        <div class="c-text-box">
+          <h2 class="c-text">KarolineFoto</h2>
+          <h3 class="c-text">KarolineFoto's Official Website</h3>
+        </div>
+      </div>
+      <div class="c c-t9 clickable" onclick="location.href='https://github.com/DanielSvindseth/TraditionalT9'">
+        <div class="c-image"></div>
+        <div class="c-text-box">
+          <h2 class="c-text">TraditionalT9</h2>
+          <h3 class="c-text">forked from Clam-/TraditionalT9</h3>
+        </div>
+      </div>
+      <div class="c c-old clickable" onclick="location.href='legacy/index-old.html'">
+        <div class="c-image"></div>
+        <div class="c-text-box">
+          <h2 class="c-text">Old design</h2>
+          <h3 class="c-text">View the legacy version of this page</h3>
+        </div>
+      </div>
+      <div class="c c-game clickable" onclick="location.href='game.html'">
+        <div class="c-image"></div>
+        <div class="c-text-box">
+          <h2 class="c-text">Game</h2>
+          <h3 class="c-text">Play a game!</h3>
+        </div>
+      </div>
+      <div class="c c-twitter clickable" onclick="location.href='https://twitter.com/DanielSvindseth'">
+        <div class="c-image"></div>
+        <div class="c-text-box">
+          <h2 class="c-text">@DanielSvindseth</h2>
+          <h3 class="c-text">Visit my Twitter profile</h3>
+        </div>
+      </div>
+      <div class="c c-github clickable" onclick="location.href='https://github.com/DanielSvindseth'">
+        <div class="c-image"></div>
+        <div class="c-text-box">
+          <h2 class="c-text">@DanielSvindseth</h2>
+          <h3 class="c-text">Visit my Github profile</h3>
+        </div>
+      </div>
     </div>
 
-    <div class="c c-karolinefoto c-left clickable" onclick="location.href='https://karolinefoto.com'">
-      <div class="c-image">
 
-      </div>
-      <div class="c-text-box">
-        <h2 class="c-text">KarolineFoto</h2>
-        <h3 class="c-text">KarolineFoto's Official Website</h3>
-      </div>
-    </div>
-    <div class="c c-t9 c-right clickable" onclick="location.href='https://github.com/DanielSvindseth/TraditionalT9'">
-      <div class="c-image">
-
-      </div>
-      <div class="c-text-box">
-        <h2 class="c-text">TraditionalT9</h2>
-        <h3 class="c-text">forked from Clam-/TraditionalT9</h3>
-      </div>
-    </div>
-    <div class="c c-old c-left clickable" onclick="location.href='index-old.html'">
-      <div class="c-image">
-
-      </div>
-      <div class="c-text-box">
-        <h2 class="c-text">Old design of Svindseth Website</h2>
-        <h3 class="c-text">View the legacy version of this page</h3>
-      </div>
-    </div>
-    <div class="c c-twitter c-right clickable" onclick="location.href='https://twitter.com/DanielSvindseth'">
-      <div class="c-image">
-
-      </div>
-      <div class="c-text-box">
-        <h2 class="c-text">@DanielSvindseth</h2>
-        <h3 class="c-text">Visit DanielSvindseth on Twitter</h3>
-      </div>
-    </div>
-    <div class="c c-game c-left clickable" onclick="location.href='game.html'">
-      <div class="c-image">
-
-      </div>
-      <div class="c-text-box">
-        <h2 class="c-text">Game</h2>
-        <h3 class="c-text">Play a game!</h3>
-      </div>
-    </div>
 
   </body>
   <script type="text/javascript" src="js/scripts.js"></script>
