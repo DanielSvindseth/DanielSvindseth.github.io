@@ -96,7 +96,7 @@ function firstVisit(){
   }
 }
 
-/**
+/*
 var flashcardset = "1";
 
 function initSet(){
@@ -117,3 +117,17 @@ function initSet(){
   }
 }
 */
+
+function showSettingsPanel() {
+  var settingsPanel = document.getElementById('settings-panel');
+  var cover = document.getElementById('cover');
+  settingsPanel.style.display='block';
+  cover.style.display='block';
+}
+
+function hideSettingsPanel() {
+  var settingsPanel = document.getElementById('settings-panel');
+  var cover = document.getElementById('cover');
+  settingsPanel.style.display='none';
+  cover.style.display='none';
+}

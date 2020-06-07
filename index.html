@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" id="wow-theme" href="css/thm1.css">
+    <link rel="stylesheet" id="wow-theme" href="css/thm4.css">
     <meta name="wot-verification" content="166882ff3af400d8952e"/>
   </head>
-  <body onload="loadTheme(); firstVisit(); chooseHeaderColor1(); chooseButtonColor();">
+  <body onload="loadTheme(); firstVisit(); chooseHeaderColor1();">
 
     <div id="header">
-      <button class="header-button-back" onclick="location.href='themes.html'" id="inThemes"></button>
+      <button class="header-button-back" onclick="showSettingsPanel();" id="inThemes"></button>
       <button class="header-button-copyright" onclick="location.href='copyright.html'" id="inCopyright"></button>
       <h1 class="header-title" id="inTitle"></h1>
       <h3 class="header-subtitle" id="inSubtitle"></h3>
@@ -37,6 +37,13 @@
           <h3 class="c-text">forked from Clam-/TraditionalT9</h3>
         </div>
       </div>
+      <div class="c c-firemusic clickable" onclick="location.href='https://github.com/DanielSvindseth/FireMusic'">
+        <div class="c-image"></div>
+        <div class="c-text-box">
+          <h2 class="c-text">FireMusic</h2>
+          <h3 class="c-text">an music player for kaiOS</h3>
+        </div>
+      </div>
       <div class="c c-old clickable" onclick="location.href='legacy/index-old.html'">
         <div class="c-image"></div>
         <div class="c-text-box">
@@ -48,7 +55,7 @@
         <div class="c-image"></div>
         <div class="c-text-box">
           <h2 class="c-text">Game</h2>
-          <h3 class="c-text">Play a game!</h3>
+          <h3 class="c-text">Play a game! (alpha)</h3>
         </div>
       </div>
       <div class="c c-twitter clickable" onclick="location.href='https://twitter.com/DanielSvindseth'">
@@ -67,7 +74,25 @@
       </div>
     </div>
 
-
+    <div id="cover" style="display: none;" onclick="hideSettingsPanel();"></div>
+    <div id="settings-panel" style="display: none;">
+      <button class="header-button-back" onclick="hideSettingsPanel();">Back</button>
+      <div class="header-box"></div>
+      <div class="settings-row">
+        <div class="settings-panel-grp">
+          <h1>Theme</h1>
+        </div>
+        <div class="settings-panel-grp">
+          <img src="images/favicon.png" alt="" height="80px">
+        </div>
+      </div>
+      <div class="settings-row">
+        <h1>setting 2</h1>
+      </div>
+      <div class="settings-row">
+        <h1>setting 3</h1>
+      </div>
+    </div>
 
   </body>
   <script type="text/javascript" src="js/scripts.js"></script>

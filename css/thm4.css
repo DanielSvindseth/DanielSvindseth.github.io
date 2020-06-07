@@ -72,22 +72,22 @@ a
 button
 {
   border-radius: 3px;
-  border-color: white;
-/*  background-image: linear-gradient(#e51d98, #ce1a89);*/
+  border: solid 2px darkgray;
+  background-image: linear-gradient(#e51d98, #ce1a89);
   color: white;
 }
 
 button:hover
 {
-/*  background-image: linear-gradient(#e51d98, #ce1a89);*/
-  border-color: black;
+  background-image: linear-gradient(#e51d98, #ce1a89);
+  border-color: white;
   color: white;
-  cursor: context-menu;
+  box-shadow: 0 0 2px white;
 }
 
 button:active
 {
-/*  background-image: linear-gradient(#e51d98, #ce1a89);*/
-  border-color: black;
-  color: black;
+  background-image: linear-gradient(#e51d98, #ce1a89);
+  border-color: grey;
+  color: #222;
 }
