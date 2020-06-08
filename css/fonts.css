@@ -2,7 +2,7 @@
 font-family: 'Operator Mono Bold';
 font-style: normal;
 font-weight: normal;
-src: local('Operator Mono Bold'), url('OperatorMono-Bold.woff') format('woff');
+src: local('Operator Mono Bold'), url('../fonts/OperatorMono-Bold.woff') format('woff');
 }
 
 
@@ -10,7 +10,7 @@ src: local('Operator Mono Bold'), url('OperatorMono-Bold.woff') format('woff');
 font-family: 'Operator Mono Bold Italic';
 font-style: normal;
 font-weight: normal;
-src: local('Operator Mono Bold Italic'), url('OperatorMono-BoldItalic.woff') format('woff');
+src: local('Operator Mono Bold Italic'), url('../fonts/OperatorMono-BoldItalic.woff') format('woff');
 }
 
 
@@ -18,7 +18,7 @@ src: local('Operator Mono Bold Italic'), url('OperatorMono-BoldItalic.woff') for
 font-family: 'Operator Mono Extra Light';
 font-style: normal;
 font-weight: normal;
-src: local('Operator Mono Extra Light'), url('OperatorMono-XLight.woff') format('woff');
+src: local('Operator Mono Extra Light'), url('../fonts/OperatorMono-XLight.woff') format('woff');
 }
 
 
@@ -26,7 +26,7 @@ src: local('Operator Mono Extra Light'), url('OperatorMono-XLight.woff') format(
 font-family: 'Operator Mono Extra Light Italic';
 font-style: normal;
 font-weight: normal;
-src: local('Operator Mono Extra Light Italic'), url('OperatorMono-XLightItalic.woff') format('woff');
+src: local('Operator Mono Extra Light Italic'), url('../fonts/OperatorMono-XLightItalic.woff') format('woff');
 }
 
 
@@ -34,7 +34,7 @@ src: local('Operator Mono Extra Light Italic'), url('OperatorMono-XLightItalic.w
 font-family: 'Operator Mono Light';
 font-style: normal;
 font-weight: normal;
-src: local('Operator Mono Light'), url('OperatorMono-Light.woff') format('woff');
+src: local('Operator Mono Light'), url('../fonts/OperatorMono-Light.woff') format('woff');
 }
 
 
@@ -42,7 +42,7 @@ src: local('Operator Mono Light'), url('OperatorMono-Light.woff') format('woff')
 font-family: 'Operator Mono Light Italic';
 font-style: normal;
 font-weight: normal;
-src: local('Operator Mono Light Italic'), url('OperatorMono-LightItalic.woff') format('woff');
+src: local('Operator Mono Light Italic'), url('../fonts/OperatorMono-LightItalic.woff') format('woff');
 }
 
 
@@ -50,7 +50,7 @@ src: local('Operator Mono Light Italic'), url('OperatorMono-LightItalic.woff') f
 font-family: 'Operator Mono Book';
 font-style: normal;
 font-weight: normal;
-src: local('Operator Mono Book'), url('OperatorMono-Book.woff') format('woff');
+src: local('Operator Mono Book'), url('../fonts/OperatorMono-Book.woff') format('woff');
 }
 
 
@@ -58,7 +58,7 @@ src: local('Operator Mono Book'), url('OperatorMono-Book.woff') format('woff');
 font-family: 'Operator Mono Book Italic';
 font-style: normal;
 font-weight: normal;
-src: local('Operator Mono Book Italic'), url('OperatorMono-BookItalic.woff') format('woff');
+src: local('Operator Mono Book Italic'), url('../fonts/OperatorMono-BookItalic.woff') format('woff');
 }
 
 
@@ -66,7 +66,7 @@ src: local('Operator Mono Book Italic'), url('OperatorMono-BookItalic.woff') for
 font-family: 'Operator Mono Medium';
 font-style: normal;
 font-weight: normal;
-src: local('Operator Mono Medium'), url('OperatorMono-Medium.woff') format('woff');
+src: local('Operator Mono Medium'), url('../fonts/OperatorMono-Medium.woff') format('woff');
 }
 
 
@@ -74,5 +74,5 @@ src: local('Operator Mono Medium'), url('OperatorMono-Medium.woff') format('woff
 font-family: 'Operator Mono Medium Italic';
 font-style: normal;
 font-weight: normal;
-src: local('Operator Mono Medium Italic'), url('OperatorMono-MediumItalic.woff') format('woff');
+src: local('Operator Mono Medium Italic'), url('../fonts/OperatorMono-MediumItalic.woff') format('woff');
 }
