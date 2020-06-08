@@ -215,6 +215,13 @@ a {
   background-repeat: no-repeat;
 }
 
+.c-firelauncher {
+  background-image: url("../images/FireLauncher.png");
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .c-firemusic {
   background-image: url("../images/FireMusic.jpg");
   background-size: 100% auto;
