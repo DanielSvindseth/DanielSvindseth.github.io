@@ -1,3 +1,4 @@
+/* general elements */
 
 html {
   height: 100vh;
@@ -66,6 +67,95 @@ a {
   text-decoration: none;
 }
 
+/* top header */
+
+#header {
+  width: 100%;
+  height: auto;
+  /*background-image: linear-gradient(to right, #a27 0%, #289 100%);*/
+  box-shadow: 0px 0px 8px black;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+/*  filter: blur(2px);*/
+}
+
+.header-box {
+  height: 83px;
+}
+
+.header-title {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 40px;
+  font-family: 'Operator Mono Medium Italic', sans-serif;
+}
+
+.header-subtitle {
+  text-align: center;
+  padding-bottom: 4px;
+  font-family: 'Operator Mono Book Italic', sans-serif;
+}
+
+.header-button-back {
+  height: 55px;
+  width: 120px;
+  display: block;
+  position: fixed;
+  top: 12px;
+  left: 12px;
+}
+
+.header-button-copyright {
+  height: 55px;
+  width: 120px;
+  display: block;
+  position: fixed;
+  top: 12px;
+  right: 12px;
+}
+
+/* cards */
+
+#cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#c-important {
+  font-size: 32px;
+}
+
+.clickable {
+  transition: 100ms;
+}
+
+.clickable:hover {
+  border: solid white 4px;
+  box-shadow: 0 0 4px white;
+  cursor: pointer;
+}
+
+.c-image {
+  height: calc(100% - 82px);
+  width: 100%;
+  background-size: 100% 100%;
+}
+
+.c-text {
+  margin-left: 0px;
+  text-align: center;
+}
+
+
+
+
+/* settings panel */
+
 #cover {
   height: 100vh;
   width: 100%;
@@ -106,27 +196,9 @@ a {
 
 }
 
-#cards {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: flex-start;
-}
 
-.vertical {
-  text-decoration: none;
-  writing-mode: vertical-rl;
-}
 
-.c-rl {
-  position: relative;
-  margin-right: 4px;
-  float: right;
-}
 
-#c-important {
-  font-size: 32px;
-}
 
 .turnable {
   transition: 0.15s;
@@ -136,26 +208,7 @@ a {
   transform: rotateZ(180deg);
 }
 
-.clickable {
-  transition: 100ms;
-}
 
-.clickable:hover {
-  border: solid white 4px;
-  box-shadow: 0 0 4px white;
-  cursor: pointer;
-}
-
-.c-image {
-  height: calc(100% - 82px);
-  width: 100%;
-  background-size: 100% 100%;
-}
-
-.c-text {
-  margin-left: 0px;
-  text-align: center;
-}
 
 .text-ud {
   transform: rotateZ(180deg);
@@ -274,53 +327,7 @@ a {
   width: calc(25% - 8px);
 }
 
-#header {
-  width: 100%;
-  height: auto;
-  /*background-image: linear-gradient(to right, #a27 0%, #289 100%);*/
-  box-shadow: 0px 0px 8px black;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  z-index: 2;
-/*  filter: blur(2px);*/
-}
 
-.header-box {
-  height: 83px;
-}
-
-.header-title {
-  text-align: center;
-  margin-top: 0px;
-  margin-bottom: 5px;
-  font-size: 40px;
-  font-family: 'Operator Mono Medium Italic', sans-serif;
-}
-
-.header-subtitle {
-  text-align: center;
-  padding-bottom: 4px;
-  font-family: 'Operator Mono Book Italic', sans-serif;
-}
-
-.header-button-back {
-  height: 55px;
-  width: 120px;
-  display: block;
-  position: fixed;
-  top: 12px;
-  left: 12px;
-}
-
-.header-button-copyright {
-  height: 55px;
-  width: 120px;
-  display: block;
-  position: fixed;
-  top: 12px;
-  right: 12px;
-}
 
 .hidden {
   display: none;
