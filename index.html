@@ -12,13 +12,21 @@
     <link rel="stylesheet" id="wow-theme" href="css/thm4.css">
     <meta name="wot-verification" content="166882ff3af400d8952e"/>
   </head>
-  <body onload="loadTheme(); firstVisit(); chooseHeaderColor1();">
+  <body onload="loadTheme(); firstVisit(); applyColor(); startGame(); cookieCheck();">
 
     <div id="header">
-      <button class="header-button-back" onclick="showSettingsPanel();" id="inThemes"></button>
-      <button class="header-button-copyright" onclick="location.href='copyright.html'" id="inCopyright"></button>
-      <h1 class="header-title" id="inTitle"></h1>
-      <h3 class="header-subtitle" id="inSubtitle"></h3>
+      <canvas id="game-surface" class="game-surface-header" style="display: none;"></canvas>
+      <div id="header-1">
+        <button class="header-button" onclick="showSettingsPanel();"><img src="images/menu.svg" alt="menu"></button>
+        <div class="logo-text">
+          <h1 class="header-title" id="inTitle"></h1>
+          <h3 class="header-subtitle" id="inSubtitle"></h3>
+        </div>
+      </div>
+      <form class="search-box" name="search" method="get" action="https://duckduckgo.com/">
+        <img src="images/dax-logo.svg" alt="quack" height="56px">
+        <input class="search-field" type="text" name="q" placeholder="Search the Web" autocomplete="off"/>
+      </form>
     </div>
     <div class="header-box"></div>
 
@@ -90,26 +98,36 @@
 
     <div id="cover" style="display: none;" onclick="hideSettingsPanel();"></div>
     <div id="settings-panel" style="display: none;">
-      <button class="header-button-back" onclick="hideSettingsPanel();">Back</button>
-      <div class="header-box"></div>
+      <button class="header-button" onclick="hideSettingsPanel();"><img src="images/back.svg" alt="back"></button>
       <div class="settings-row">
         <div class="settings-panel-grp">
           <h1>Theme</h1>
         </div>
         <div class="settings-panel-grp">
-          <img src="images/favicon.png" alt="" height="80px">
+          <button type="button" name="button" class="settings-button border-left" onclick="setTheme(1);"><h6>Pink & Blue</h6></button><!--
+       --><button type="button" name="button" class="settings-button" onclick="setTheme(2);"><h6>Green & Blue</h6></button><!--
+       --><button type="button" name="button" class="settings-button" onclick="setTheme(3);"><h6>Blue & Grey</h6></button><!--
+       --><button type="button" name="button" class="settings-button" onclick="setTheme(4); applyColor();"><h6>Random Color!</h6></button><!--
+       --><button type="button" name="button" class="settings-button border-right" onclick="setTheme(5); applyColor();"><h6>Custom</h6></button>
         </div>
       </div>
       <div class="settings-row">
-        <h1>setting 2</h1>
+        <input type="color" id="user-custom-color" name="user-color">
+        <button type="button" onclick="createCustomColor(getElementById('user-custom-color').value); applyCustomColor();"></button>
       </div>
       <div class="settings-row">
         <h1>setting 3</h1>
       </div>
     </div>
-
+    <div id="cookies-warning" style="display: none;">
+      <div class="cookies-warning-border-top"> <h1>Cookies!</h1> <button type="button" name="button" class="cookies-warning-close" onclick="acceptCookies();"> <img src="images/close.png"> </button> </div>
+      <p>This page uses Cookies. Look out for Cookie Monster!</p>
+      <button type="button" name="button" class="cookies-warning-ok" onclick="acceptCookies();"> <div class="cookies-warning-ok-cover"> <h3>OK</h3> </div> </button>
+    </div>
   </body>
   <script type="text/javascript" src="js/scripts.js"></script>
+  <script type="text/javascript" src="js/gl-matrix.js"></script>
+  <script type="text/javascript" src="js/game.js"></script>
   <script type="text/javascript" src="js/index-strings.js"></script>
   <script type="text/javascript" src="js/color-chooser.js"></script>
 </html>

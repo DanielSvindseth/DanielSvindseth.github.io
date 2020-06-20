@@ -9,6 +9,36 @@ function chooseHeaderColor1() {
   settingsPanel.style.backgroundColor='rgba(' + r + ', ' + g + ', ' + b + ', ' + a + ')';
 }
 
+function createCustomColor(color) {
+  localStorage.setItem("customColor", color);
+}
+
+function applyCustomColor() {
+  var customColor = localStorage.getItem("customColor");
+  var header = document.getElementById('header');
+  var settingsPanel = document.getElementById('settings-panel');
+  header.style.backgroundColor = customColor;
+  settingsPanel.style.backgroundColor = customColor;
+  console.log(customColor);
+}
+
+function applyColor() {
+  if (localStorage.getItem("theme") === '4') {
+    chooseHeaderColor1();
+  } else if (localStorage.getItem("theme") === '5') {
+    applyCustomColor();
+  }
+}
+
+function switchAnimatedHeader() {
+  var headerAnimation = document.getElementsByClassName('game-surface-header')[0];
+  if (headerAnimation.style.display === 'block') {
+    headerAnimation.style.display = 'none';
+  } else {
+    headerAnimation.style.display = 'block';
+  }
+}
+
 /*
 function chooseButtonColor() {
   var r = Math.floor((Math.random() * 255) + 1);

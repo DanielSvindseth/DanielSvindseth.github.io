@@ -21,6 +21,11 @@ function switchTheme(){
   }
 }
 
+function setTheme(theme) {
+  localStorage.setItem("theme", theme);
+  document.getElementById('wow-theme').setAttribute('href', 'css/thm' + theme + '.css');
+}
+
 function switchSet(){
   if (localStorage.flashcardset==1) {
     localStorage.setItem("flashcardset", "2");
@@ -91,9 +96,25 @@ function firstVisit(){
   if (localStorage.prevVisit!=1) {
     document.getElementById('wow-theme').setAttribute('href', 'css/thm1.css');
     localStorage.setItem("theme", "1");
-    alert("This site uses cookies! By using this site you agree to saving a few bits in localStorage");
+
+
     localStorage.setItem("prevVisit", "1")
   }
+}
+
+function cookieCheck(){
+  var cookieBox = document.getElementById('cookies-warning');
+  if (localStorage.getItem("accepted-cookies") !== "yes") {
+    cookieBox.style.display = 'block';
+  } else {
+    cookieBox.style.display = 'none';
+  }
+}
+
+function acceptCookies(){
+  var cookieBox = document.getElementById('cookies-warning');
+  localStorage.setItem("accepted-cookies", "yes");
+  cookieCheck();
 }
 
 /*

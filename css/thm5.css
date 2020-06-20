@@ -1,0 +1,93 @@
+html
+{
+  background-color: #333;
+  color: white;
+}
+
+a
+{
+  color: #E91E63;
+}
+
+#c-important
+{
+  background-image: linear-gradient(#F22, #F00);
+  color: white;
+  text-shadow: 0px 0px 20px white;
+}
+
+.turnable
+{
+  transition: 0.8s;
+}
+
+.c:active
+{
+  filter: opacity(0.8);
+}
+
+.c-text-box
+{
+  background-color: #0008;
+}
+
+.c
+{
+  background-color: white;
+  box-shadow: 0px 0px 8px black;
+  border-radius: 3px;
+  border-color;
+  color: white;
+}
+
+#header
+{
+/*  background-image: linear-gradient(to right, red 0%, yellow 20%, lightgreen 40%, cyan 60%, blue 80%, violet 100%);*/
+/*  background-image: linear-gradient(to right, rgba();*/
+  box-shadow: 0px 0px 8px black;
+}
+
+.header-title
+{
+  color: white;
+  text-shadow: 0px 0px 4px lightgrey;
+}
+
+.header-subtitle
+{
+  color: white;
+  text-shadow: 0px 0px 4px lightgrey;
+}
+
+.header-button-back
+{
+/*  background-color: #0FF;*/
+}
+
+.header-button-copyright
+{
+/*  background-color: #0FF;*/
+}
+
+button
+{
+  border-radius: 3px;
+  border: solid 2px darkgray;
+  background-image: linear-gradient(#e51d98, #ce1a89);
+  color: white;
+}
+
+button:hover
+{
+  background-image: linear-gradient(#e51d98, #ce1a89);
+  border-color: white;
+  color: white;
+  box-shadow: 0 0 2px white;
+}
+
+button:active
+{
+  background-image: linear-gradient(#e51d98, #ce1a89);
+  border-color: grey;
+  color: #222;
+}
