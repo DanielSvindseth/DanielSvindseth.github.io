@@ -42,8 +42,8 @@ a
 
 #header
 {
-/*  background-image: linear-gradient(to right, red 0%, yellow 20%, lightgreen 40%, cyan 60%, blue 80%, violet 100%);*/
-/*  background-image: linear-gradient(to right, rgba();*/
+  background-color: #0000 !important;
+  background-image: linear-gradient(to top, #0007 0%, #3337 20%, #ccc7 90%, #fff7 100%);
   box-shadow: 0px 0px 8px black;
 }
 
@@ -69,17 +69,22 @@ a
 /*  background-color: #0FF;*/
 }
 
+#settings-panel {
+  background-color: #0000 !important;
+  background-image: linear-gradient(to top, #0007 0%, #3337 20%, #ccc7 90%, #fff7 100%);
+}
+
 button
 {
   border-radius: 3px;
   border: solid 2px darkgray;
-  background-image: linear-gradient(#e51d98, #ce1a89);  
+  background-image: linear-gradient(to top, #222 0%, #777 100%);
   color: white;
 }
 
 button:hover
 {
-  background-image: linear-gradient(#e51d98, #ce1a89);
+  background-image: radial-gradient(at bottom center, #fff7 0%, #0000 100%), linear-gradient(to top, #222 0%, #777 100%);
   border-color: white;
   color: white;
   box-shadow: 0 0 2px white;
@@ -87,7 +92,7 @@ button:hover
 
 button:active
 {
-  background-image: linear-gradient(#e51d98, #ce1a89);
+  background-image: linear-gradient(to bottom, #333 0%, #666 100%);
   border-color: grey;
   color: #222;
 }

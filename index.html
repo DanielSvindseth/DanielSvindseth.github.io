@@ -108,17 +108,19 @@
        --><button type="button" name="button" class="settings-button" onclick="setTheme(2);"><h6>Green & Blue</h6></button><!--
        --><button type="button" name="button" class="settings-button" onclick="setTheme(3);"><h6>Blue & Grey</h6></button><!--
        --><button type="button" name="button" class="settings-button" onclick="setTheme(4); applyColor();"><h6>Random Color!</h6></button><!--
-       --><button type="button" name="button" class="settings-button border-right" onclick="setTheme(5); applyColor();"><h6>Custom</h6></button>
+       --><button type="button" name="button" class="settings-button" onclick="setTheme(5); applyColor();"><h6>Custom</h6></button><!--
+       --><button type="button" name="button" class="settings-button border-right" onclick="setTheme(6);"><h6>Glass</h6></button>
         </div>
       </div>
       <div class="settings-row">
-        <input type="color" id="user-custom-color" name="user-color">
-        <button type="button" onclick="createCustomColor(getElementById('user-custom-color').value); applyCustomColor();"></button>
-      </div>
-      <div class="settings-row">
-        <h1>setting 3</h1>
+        <div class="settings-panel-grp">
+          <input type="color" id="user-custom-color" name="user-color"><!--
+       --><button type="button" class="settings-button border-right" onclick="createCustomColor(getElementById('user-custom-color').value); applyCustomColor();">Apply</button>
+        </div>
       </div>
     </div>
+
+
     <div id="cookies-warning" style="display: none;">
       <div class="cookies-warning-border-top"> <h1>Cookies!</h1> <button type="button" name="button" class="cookies-warning-close" onclick="acceptCookies();"> <img src="images/close.png"> </button> </div>
       <p>This page uses Cookies. Look out for Cookie Monster!</p>
