@@ -78,13 +78,15 @@ button
 {
   border-radius: 3px;
   border: solid 2px darkgray;
-  background-image: linear-gradient(to top, #222 0%, #777 100%);
+  background-color: #0000 !important;
+  background-image: linear-gradient(to top, #2229 0%, #7779 100%);
   color: white;
 }
 
 button:hover
 {
-  background-image: radial-gradient(at bottom center, #fff7 0%, #0000 100%), linear-gradient(to top, #222 0%, #777 100%);
+  background-color: #0000 !important;
+  background-image: radial-gradient(at bottom center, #fff7 0%, #0000 100%), linear-gradient(to top, #2229 0%, #7779 100%);
   border-color: white;
   color: white;
   box-shadow: 0 0 2px white;
@@ -92,7 +94,8 @@ button:hover
 
 button:active
 {
-  background-image: linear-gradient(to bottom, #333 0%, #666 100%);
+  background-color: #0000 !important;
+  background-image: linear-gradient(to bottom, #3339 0%, #6669 100%);
   border-color: grey;
   color: #222;
 }
