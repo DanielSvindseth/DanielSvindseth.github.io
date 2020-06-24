@@ -74,6 +74,10 @@ a
   background-image: linear-gradient(to top, #0007 0%, #3337 20%, #ccc7 90%, #fff7 100%);
 }
 
+.settings-item {
+  background-image: linear-gradient(to bottom, #2229 0%, #9999 100%);
+}
+
 button
 {
   border-radius: 3px;

@@ -116,3 +116,20 @@ function hideSettingsPanel() {
   settingsPanel.style.display='none';
   cover.style.display='none';
 }
+
+function showColorPicker() {
+  var colorPicker = document.getElementById('color-picker');
+  colorPicker.style.display="block";
+}
+
+function hideColorPicker() {
+  var colorPicker = document.getElementById('color-picker');
+  colorPicker.style.display="none";
+}
+
+function loadAttributes() {
+  var theme = localStorage.getItem('theme');
+  if (theme !== '5') {
+    document.getElementById('color-picker').style.display="none";
+  }
+}

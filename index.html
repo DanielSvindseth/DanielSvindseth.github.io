@@ -12,7 +12,7 @@
     <link rel="stylesheet" id="wow-theme" href="css/thm4.css">
     <meta name="wot-verification" content="166882ff3af400d8952e"/>
   </head>
-  <body onload="loadTheme(); firstVisit(); applyColor(); startGame(); cookieCheck();">
+  <body onload="loadTheme(); firstVisit(); applyColor(); startGame(); cookieCheck(); loadAttributes();">
 
     <div id="header">
       <canvas id="game-surface" class="game-surface-header" style="display: none;"></canvas>
@@ -99,23 +99,28 @@
     <div id="cover" style="display: none;" onclick="hideSettingsPanel();"></div>
     <div id="settings-panel" style="display: none;">
       <button class="header-button" onclick="hideSettingsPanel();"><img src="images/back.svg" alt="back"></button>
-      <div class="settings-row">
-        <div class="settings-panel-grp">
-          <h1>Theme</h1>
+
+      <div class="settings-item">
+        <div class="settings-row">
+          <div class="settings-panel-grp">
+            <h1>Change Appearance</h1>
+          </div>
         </div>
-        <div class="settings-panel-grp">
-          <button type="button" name="button" class="settings-button border-left" onclick="setTheme(1);"><h6>Pink & Blue</h6></button><!--
-       --><button type="button" name="button" class="settings-button" onclick="setTheme(2);"><h6>Green & Blue</h6></button><!--
-       --><button type="button" name="button" class="settings-button" onclick="setTheme(3);"><h6>Blue & Grey</h6></button><!--
-       --><button type="button" name="button" class="settings-button" onclick="setTheme(4); applyColor();"><h6>Random Color!</h6></button><!--
-       --><button type="button" name="button" class="settings-button" onclick="setTheme(5); applyColor();"><h6>Custom</h6></button><!--
-       --><button type="button" name="button" class="settings-button border-right" onclick="setTheme(6);"><h6>Glass</h6></button>
+        <div class="settings-row">
+          <div class="settings-panel-grp">
+            <button type="button" name="button" class="settings-button border-left" onclick="setTheme(1); hideColorPicker();"><h6>Pink & Blue</h6></button><!--
+         --><button type="button" name="button" class="settings-button" onclick="setTheme(2); hideColorPicker();"><h6>Green & Blue</h6></button><!--
+         --><button type="button" name="button" class="settings-button" onclick="setTheme(3); hideColorPicker();"><h6>Blue & Grey</h6></button><!--
+         --><button type="button" name="button" class="settings-button" onclick="setTheme(4); applyColor(); hideColorPicker();"><h6>Random Color!</h6></button><!--
+         --><button type="button" name="button" class="settings-button" onclick="setTheme(5); applyColor(); showColorPicker();"><h6>Custom</h6></button><!--
+         --><button type="button" name="button" class="settings-button border-right" onclick="setTheme(6); hideColorPicker();"><h6>Glass</h6></button>
+          </div>
         </div>
-      </div>
-      <div class="settings-row">
-        <div class="settings-panel-grp">
-          <input type="color" id="user-custom-color" name="user-color"><!--
-       --><button type="button" class="settings-button border-right" onclick="createCustomColor(getElementById('user-custom-color').value); applyCustomColor();">Apply</button>
+        <div id="color-picker" class="settings-row">
+          <div class="settings-panel-grp">
+            <input type="color" id="user-custom-color" name="user-color"><!--
+         --><button type="button" class="settings-button border-right" onclick="createCustomColor(getElementById('user-custom-color').value); applyCustomColor();">Apply</button>
+          </div>
         </div>
       </div>
     </div>

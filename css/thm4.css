@@ -69,11 +69,15 @@ a
 /*  background-color: #0FF;*/
 }
 
+.settings-item {
+  background-color: #0004;
+}
+
 button
 {
   border-radius: 3px;
   border: solid 2px darkgray;
-  background-image: linear-gradient(#e51d98, #ce1a89);  
+  background-image: linear-gradient(#e51d98, #ce1a89);
   color: white;
 }
 

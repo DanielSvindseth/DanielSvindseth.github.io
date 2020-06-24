@@ -137,10 +137,16 @@ a {
   box-shadow: 0 0 2px #5555;
 }
 
+.settings-item {
+  width: calc(100% - 16px);
+  margin: 8px 8px;
+  border-radius: 8px;
+}
+
 .settings-row {
   width: 100%;
   height: auto;
-  min-height: 80px;
+  min-height: 40px;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -151,13 +157,13 @@ a {
   margin: 4px 8px;
 }
 
-.settings-row-grp {
-
+.settings-panel-grp {
+  margin: 0 8px;
 }
 
 .settings-button {
   display: inline-block;
-  width: 90px;
+  width: 100px;
   height: 50px;
   overflow: hidden;
   margin: 8px 0;
