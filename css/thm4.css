@@ -70,7 +70,7 @@ a
 }
 
 .settings-item {
-  background-color: #0004;
+  background-color: #0004 !important;
 }
 
 button

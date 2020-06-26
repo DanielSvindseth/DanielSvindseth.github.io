@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/cookies.css">
     <link rel="stylesheet" id="wow-theme" href="css/thm4.css">
     <meta name="wot-verification" content="166882ff3af400d8952e"/>
   </head>
-  <body onload="loadTheme(); firstVisit(); applyColor(); startGame(); cookieCheck(); loadAttributes();">
+  <body onload="loadTheme(); firstVisit(); applyColor(); startGame(); loadAttributes(); cookieCheck();">
 
     <div id="header">
       <canvas id="game-surface" class="game-surface-header" style="display: none;"></canvas>
@@ -125,11 +126,16 @@
       </div>
     </div>
 
-
+<!--
     <div id="cookies-warning" style="display: none;">
       <div class="cookies-warning-border-top"> <h1>Cookies!</h1> <button type="button" name="button" class="cookies-warning-close" onclick="acceptCookies();"> <img src="images/close.png"> </button> </div>
       <p>This page uses Cookies. Look out for Cookie Monster!</p>
       <button type="button" name="button" class="cookies-warning-ok" onclick="acceptCookies();"> <div class="cookies-warning-ok-cover"> <h3>OK</h3> </div> </button>
+    </div>
+-->
+    <div id="cookie" style="display: none;">
+      <p>This website uses Cookies!</p>
+      <button type="button" name="button" onclick="dismissCookie(); acceptCookies();" style="padding: 0;">Dismiss</button>
     </div>
   </body>
   <script type="text/javascript" src="js/scripts.js"></script>

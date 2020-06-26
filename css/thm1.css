@@ -63,6 +63,14 @@ a
   background-color: #0FF;
 }
 
+#settings-panel {
+  background-color: #a279 !important;
+}
+
+.settings-item {
+  background-color: #0004;
+}
+
 button
 {
   border-radius: 3px;

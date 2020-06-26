@@ -69,6 +69,10 @@ a
 /*  background-color: #0FF;*/
 }
 
+.settings-item {
+  background-color: #0004;
+}
+
 button
 {
   border-radius: 3px;

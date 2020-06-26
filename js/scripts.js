@@ -66,22 +66,26 @@ function firstVisit(){
   }
 }
 
-function cookieCheck(){
-  var cookieBox = document.getElementById('cookies-warning');
+function cookieCheck() {
+  var cookie = document.getElementById('cookie');
   if (localStorage.getItem("accepted-cookies") !== "yes") {
-    cookieBox.style.display = 'block';
+    cookie.style.display = 'block';
   } else {
-    cookieBox.style.display = 'none';
+    cookie.style.display = 'none';
   }
 }
 
-function acceptCookies(){
-  var cookieBox = document.getElementById('cookies-warning');
+function acceptCookies() {
   localStorage.setItem("accepted-cookies", "yes");
-  cookieCheck();
+  setTimeout(() => { cookieCheck(); }, 3000);
 }
 
-/*
+function dismissCookie() {
+  var cookie = document.getElementById('cookie');
+  cookie.style.animationName="roll-2";
+}
+
+/*  var cookieBox = document.getElementById('cookie');
 var flashcardset = "1";
 
 function initSet(){

@@ -1,0 +1,54 @@
+#cookie {
+  display: block;
+  position: fixed;
+  bottom: 0px;
+  animation-name: roll-1;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  background-image: url(../images/cookie.png);
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 320px;
+  z-index: 1000000;
+}
+
+@keyframes roll-1 {
+  from {
+    left: -320px;
+    transform: rotate(-180deg);
+    display: block;
+  }
+  to {
+    left: calc(50% - 160px);
+    transform: rotate(360deg);
+    display: block;
+  }
+}
+
+@keyframes roll-2 {
+  from {
+    left: calc(50% - 160px);
+    transform: rotate(0deg);
+    display: block;
+  }
+  to {
+    left: calc(100% + 360px);
+    transform: rotate(540deg);
+    display: block;
+  }
+}
+
+#cookie p {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 30px;
+  text-shadow: 1px 1px 2px black;
+  margin-top: 80px;
+  text-align: center;
+}
+
+#cookie button {
+  width: 80px;
+  margin-left: calc(50% - 40px);
+  margin-top: 8px;
+}
