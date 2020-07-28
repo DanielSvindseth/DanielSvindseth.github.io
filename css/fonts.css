@@ -2,7 +2,7 @@
 font-family: 'Operator Mono Bold';
 font-style: normal;
 font-weight: normal;
-src: local('Operator Mono Bold'), url('../fonts/OperatorMono-Bold.woff') format('woff');
+src: local('Operator Mono Bold'), url('../fonts/OperatorMono/OperatorMono-Bold.woff') format('woff');
 }
 
 
@@ -10,7 +10,7 @@ src: local('Operator Mono Bold'), url('../fonts/OperatorMono-Bold.woff') format(
 font-family: 'Operator Mono Bold Italic';
 font-style: normal;
 font-weight: normal;
-src: local('Operator Mono Bold Italic'), url('../fonts/OperatorMono-BoldItalic.woff') format('woff');
+src: local('Operator Mono Bold Italic'), url('../fonts/OperatorMono/OperatorMono-BoldItalic.woff') format('woff');
 }
 
 
@@ -18,7 +18,7 @@ src: local('Operator Mono Bold Italic'), url('../fonts/OperatorMono-BoldItalic.w
 font-family: 'Operator Mono Extra Light';
 font-style: normal;
 font-weight: normal;
-src: local('Operator Mono Extra Light'), url('../fonts/OperatorMono-XLight.woff') format('woff');
+src: local('Operator Mono Extra Light'), url('../fonts/OperatorMono/OperatorMono-XLight.woff') format('woff');
 }
 
 
@@ -26,7 +26,7 @@ src: local('Operator Mono Extra Light'), url('../fonts/OperatorMono-XLight.woff'
 font-family: 'Operator Mono Extra Light Italic';
 font-style: normal;
 font-weight: normal;
-src: local('Operator Mono Extra Light Italic'), url('../fonts/OperatorMono-XLightItalic.woff') format('woff');
+src: local('Operator Mono Extra Light Italic'), url('../fonts/OperatorMono/OperatorMono-XLightItalic.woff') format('woff');
 }
 
 
@@ -34,7 +34,7 @@ src: local('Operator Mono Extra Light Italic'), url('../fonts/OperatorMono-XLigh
 font-family: 'Operator Mono Light';
 font-style: normal;
 font-weight: normal;
-src: local('Operator Mono Light'), url('../fonts/OperatorMono-Light.woff') format('woff');
+src: local('Operator Mono Light'), url('../fonts/OperatorMono/OperatorMono-Light.woff') format('woff');
 }
 
 
@@ -42,7 +42,7 @@ src: local('Operator Mono Light'), url('../fonts/OperatorMono-Light.woff') forma
 font-family: 'Operator Mono Light Italic';
 font-style: normal;
 font-weight: normal;
-src: local('Operator Mono Light Italic'), url('../fonts/OperatorMono-LightItalic.woff') format('woff');
+src: local('Operator Mono Light Italic'), url('../fonts/OperatorMono/OperatorMono-LightItalic.woff') format('woff');
 }
 
 
@@ -50,7 +50,7 @@ src: local('Operator Mono Light Italic'), url('../fonts/OperatorMono-LightItalic
 font-family: 'Operator Mono Book';
 font-style: normal;
 font-weight: normal;
-src: local('Operator Mono Book'), url('../fonts/OperatorMono-Book.woff') format('woff');
+src: local('Operator Mono Book'), url('../fonts/OperatorMono/OperatorMono-Book.woff') format('woff');
 }
 
 
@@ -58,7 +58,7 @@ src: local('Operator Mono Book'), url('../fonts/OperatorMono-Book.woff') format(
 font-family: 'Operator Mono Book Italic';
 font-style: normal;
 font-weight: normal;
-src: local('Operator Mono Book Italic'), url('../fonts/OperatorMono-BookItalic.woff') format('woff');
+src: local('Operator Mono Book Italic'), url('../fonts/OperatorMono/OperatorMono-BookItalic.woff') format('woff');
 }
 
 
@@ -66,7 +66,7 @@ src: local('Operator Mono Book Italic'), url('../fonts/OperatorMono-BookItalic.w
 font-family: 'Operator Mono Medium';
 font-style: normal;
 font-weight: normal;
-src: local('Operator Mono Medium'), url('../fonts/OperatorMono-Medium.woff') format('woff');
+src: local('Operator Mono Medium'), url('../fonts/OperatorMono/OperatorMono-Medium.woff') format('woff');
 }
 
 
@@ -74,5 +74,17 @@ src: local('Operator Mono Medium'), url('../fonts/OperatorMono-Medium.woff') for
 font-family: 'Operator Mono Medium Italic';
 font-style: normal;
 font-weight: normal;
-src: local('Operator Mono Medium Italic'), url('../fonts/OperatorMono-MediumItalic.woff') format('woff');
+src: local('Operator Mono Medium Italic'), url('../fonts/OperatorMono/OperatorMono-MediumItalic.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Ubuntu Light';
+font-style: normal;
+font-weight: normal;
+src: local('Ubuntu Light'), url('../fonts/Ubuntu/Ubuntu-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Average Sans';
+  src: url('../fonts/Average_Sans/AverageSans-Regular.ttf') format('truetype');
 }

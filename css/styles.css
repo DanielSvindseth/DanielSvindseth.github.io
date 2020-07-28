@@ -28,7 +28,7 @@ h1 {
   padding-right: 0px;
   margin: 8px;
   font-size: 40px;
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Ubuntu Light';
 }
 
 h2 {
@@ -39,7 +39,7 @@ h2 {
   font-size: 30px;
   line-height: 30px;
   height: 30px;
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Ubuntu Light';
 }
 
 h3 {
@@ -49,7 +49,7 @@ h3 {
   margin: 4px;
   font-size: 20px;
   line-height: 20px;
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Ubuntu Light';
 }
 
 h6 {
@@ -58,7 +58,7 @@ h6 {
   padding-right: 0px;
   margin: 8px;
   font-size: 60px;
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Ubuntu Light';
 }
 
 p {
@@ -67,7 +67,7 @@ p {
   padding-right: 0px;
   margin: 0px;
   font-size: 24px;
-  font-family: 'Average', serif;
+  font-family: 'Average Sans';
 }
 
 a {
@@ -103,7 +103,7 @@ a {
   width: 320px;
   padding-left: 20px;
   color: black;
-  font-family: 'Operator Mono Medium Italic', sans-serif;
+  font-family: 'Ubuntu Light';
   font-size: 18px;
   border: 0;
   border-radius: 0;
@@ -295,8 +295,15 @@ a {
   background-repeat: no-repeat;
 }
 
+.c-game {
+  background-image: url("../images/webGL.png");
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .c-firelauncher {
-  background-image: url("../images/FireLauncher.png");
+  background-image: url("../images/Launcher.png");
   background-size: 100% auto;
   background-position: center;
   background-repeat: no-repeat;
@@ -304,7 +311,7 @@ a {
 
 .c-firemusic {
   background-image: url("../images/FireMusic.png");
-  background-size: 100% auto;
+  background-size: 192px auto;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -318,14 +325,35 @@ a {
 
 .c-twitter {
   background-image: url("../images/Twitter_Logo_Blue.svg");
-  background-size: 40% auto;
+  background-size: 192px auto;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .c-github {
   background-image: url("../images/social/github-logo.svg");
-  background-size: 40% auto;
+  background-size: 192px auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.c-homepage {
+  background-image: url("../images/favicon.png");
+  background-size: 192px auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.c-inspire {
+  background-image: url("../images/inspire.png");
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.c-musicsheep {
+  background-image: url("../images/musicsheep.png");
+  background-size: 192px auto;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -391,13 +419,13 @@ a {
   margin-top: 0px;
   margin-bottom: 5px;
   font-size: 40px;
-  font-family: 'Operator Mono Medium Italic', sans-serif;
+  font-family: 'Ubuntu Light';
 }
 
 .header-subtitle {
   text-align: left;
   padding-bottom: 4px;
-  font-family: 'Operator Mono Book Italic', sans-serif;
+  font-family: 'Ubuntu Light';
 }
 
 .header-button {
