@@ -282,7 +282,7 @@ a {
 }
 
 .c-create {
-  background-image: url("../images/create.jpg");
+  background-image: url("../images/create-96.png");
   background-size: 100% auto;
   background-position: center;
   background-repeat: no-repeat;
@@ -318,7 +318,12 @@ a {
 
 .c-firemusic {
   background-image: url("../images/FireMusic.png");
+  /*
   background-size: 192px auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  */
+  background-size: 100% auto;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -346,7 +351,12 @@ a {
 
 .c-homepage {
   background-image: url("../images/favicon.png");
+  /*
   background-size: 192px auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  */
+  background-size: 100% auto;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -360,7 +370,12 @@ a {
 
 .c-musicsheep {
   background-image: url("../images/musicsheep.png");
+  /*
   background-size: 192px auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  */
+  background-size: 100% auto;
   background-position: center;
   background-repeat: no-repeat;
 }
