@@ -88,3 +88,13 @@ src: local('Ubuntu Light'), url('../fonts/Ubuntu/Ubuntu-Light.ttf') format('true
   font-family: 'Average Sans';
   src: url('../fonts/Average_Sans/AverageSans-Regular.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: 'Comic Neue';
+  src: url('../fonts/Comic_Neue/ComicNeue-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Comic Neue Bold';
+  src: url('../fonts/Comic_Neue/ComicNeue-Bold.ttf') format('truetype');
+}
