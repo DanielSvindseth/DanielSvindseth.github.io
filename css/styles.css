@@ -74,6 +74,14 @@ a {
   text-decoration: none;
 }
 
+.t-center {
+  text-align: center;
+}
+
+.wow:hover {
+
+}
+
 #search {
   display: flex;
   flex-flow: row nowrap;
@@ -226,6 +234,12 @@ a {
   cursor: pointer;
 }
 
+a:hover {
+  border: solid white 4px;
+  box-shadow: 0 0 2px white;
+  cursor: pointer;
+}
+
 .c-image {
   height: calc(100% - 80px);
   width: 100%;
@@ -289,7 +303,7 @@ a {
 }
 
 .c-karolinefoto {
-  background-image: url("../images/karolinefoto.jpg");
+  background-image: url("../images/karolinefoto.png");
   background-size: 100% auto;
   background-position: center;
   background-repeat: no-repeat;
@@ -375,19 +389,22 @@ a {
   background-repeat: no-repeat;
 }
 
-.c-musicsheep {
-  background-image: url("../images/musicsheep.png");
-  /*
-  background-size: 192px auto;
+.c-musicsheep-electron {
+  background-image: url("../images/musicsheep-electron.png");
+  background-size: 100% auto;
   background-position: center;
   background-repeat: no-repeat;
-  */
+}
+
+.c-musicsheep-gtk {
+  background-image: url("../images/musicsheep-gtk.png");
   background-size: 100% auto;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .c {
+  display: block;
   width: 450px;
   height: 250px;
   border: solid darkgray 4px;

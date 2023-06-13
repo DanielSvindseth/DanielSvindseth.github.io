@@ -137,8 +137,8 @@ function loadAttributes() {
     document.getElementById('color-picker').style.display="none";
   }
 }
-
-localStorage.setItem('Cookies', )
-function addCookie() {
-
-}
+// 
+// localStorage.setItem('Cookies', )
+// function addCookie() {
+//
+// }

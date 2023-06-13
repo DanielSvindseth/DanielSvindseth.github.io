@@ -1,6 +1,6 @@
 html
 {
-  background-color: #333;
+  background-color: #3d3a37;
   color: white;
 }
 
@@ -75,15 +75,15 @@ a
 
 button
 {
-  border-radius: 3px;
+  border-radius: 4px;
   border: solid 2px darkgray;
-  background-image: linear-gradient(#e51d98, #ce1a89);
+  background-image: linear-gradient(#8a7c8a, #655165);
   color: white;
 }
 
 button:hover
 {
-  background-image: linear-gradient(#e51d98, #ce1a89);
+  background-image: linear-gradient(#655165, #8a7c8a);
   border-color: white;
   color: white;
   box-shadow: 0 0 2px white;
@@ -91,7 +91,7 @@ button:hover
 
 button:active
 {
-  background-image: linear-gradient(#e51d98, #ce1a89);
+  background-image: linear-gradient(#8a7c8a, #655165);
   border-color: grey;
   color: #222;
 }
