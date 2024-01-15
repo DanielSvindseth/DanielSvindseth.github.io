@@ -11,79 +11,74 @@
     <link rel="stylesheet" href="css/cookies.css">
     <link rel="stylesheet" id="wow-theme" href="css/thm4.css">
   </head>
-  <body onload="loadTheme(); firstVisit(); applyColor(); startGame(); loadAttributes(); cookieCheck();">
+  <body onload="loadTheme(); firstVisit(); applyColor(); loadAttributes(); cookieCheck();">
 
     <div id="header">
-      <canvas id="game-surface" class="game-surface-header" style="display: none;"></canvas>
-      <div id="header-1">
-        <button class="header-button" onclick="showSettingsPanel();"><img src="images/menu.svg" alt="menu"></button>
+      <div id="logo">
         <div class="logo-text">
           <h1 class="header-title" id="inTitle"></h1>
           <h3 class="header-subtitle" id="inSubtitle"></h3>
         </div>
       </div>
-      <form class="search-box" name="search" method="get" action="https://duckduckgo.com/">
-        <img src="images/dax-logo.svg" alt="quack" height="56px">
-        <input class="search-field" type="text" name="q" placeholder="Search the Web" autocomplete="off"/>
-      </form>
+      <button class="header-button" onclick="showSettingsPanel();"><img src="images/menu.svg" alt="menu"></button>
     </div>
     <div class="header-box"></div>
 
-    <h1 class="t-center wow">Here are some of my projects!</h1>
+    <!-- <h1 class="t-center wow">Here are some of my projects!</h1> -->
 
     <div id="cards">
 
-      <a class="c c-create" href="https://github.com/DanielSvindseth/CreateFramework/tree/master">
-        <div class="c-image"></div>
+      <a class="c" href="https://github.com/DanielSvindseth/CreateFramework/tree/master">
+        <img class="c-image" src="images/create-96.png"></img>
         <div class="c-text-box">
           <h2 class="c-text">Create Framework</h2>
           <h3 class="c-text">.css and .js Framework for teaching</h3>
         </div>
       </a>
-      <a class="c c-inspire" href="https://inspire.svindseth.net">
-        <div class="c-image"></div>
+      <a class="c" href="https://inspire.svindseth.net">
+        <img class="c-image" src="images/inspire.png"></img>
         <div class="c-text-box">
           <h2 class="c-text">Inspire</h2>
           <h3 class="c-text">Inspirational presentations</h3>
         </div>
       </a>
-      <a class="c c-musicsheep-electron" href="https://github.com/DanielSvindseth/Music-Sheep/">
-        <div class="c-image"></div>
+      <a class="c" href="https://github.com/DanielSvindseth/Music-Sheep/">
+        <img class="c-image" src="images/musicsheep-electron.png"></img>
         <div class="c-text-box">
           <h2 class="c-text">Music Sheep</h2>
           <h3 class="c-text">A music player for the desktop</h3>
         </div>
       </a>
-      <a class="c c-musicsheep-gtk" href="https://github.com/DanielSvindseth/Music-Sheep/">
-        <div class="c-image"></div>
+      <a class="c" href="https://github.com/DanielSvindseth/Music-Sheep/">
+        <img class="c-image" src="images/musicsheep-gtk.png"></img>
         <div class="c-text-box">
           <h2 class="c-text">Music Sheep</h2>
           <h3 class="c-text">A music player for the desktop</h3>
         </div>
       </a>
-      <a class="c c-karolinefoto" href="https://karolinefoto.com">
-        <div class="c-image"></div>
+      <a class="c" href="https://karolinefoto.com">
+        <img class="c-image" src="images/karolinefoto.png"></img>
         <div class="c-text-box">
           <h2 class="c-text">KarolineFoto</h2>
           <h3 class="c-text">KarolineFoto's Official Website</h3>
         </div>
       </a>
-      <a class="c c-old" href="legacy/index-old.html">
-        <div class="c-image"></div>
+      <a class="c" href="legacy/index-old.html">
+        <img class="c-image" src="images/old.png"></img>
         <div class="c-text-box">
           <h2 class="c-text">Old design</h2>
           <h3 class="c-text">View the legacy version of this page</h3>
         </div>
       </a>
-      <a class="c c-creative-learning" href="https://manabi.no">
-        <div class="c-image"></div>
+      <a class="c" href="https://manabi.no">
+        <img class="c-image" src="images/creative-learning.png"></img>
         <div class="c-text-box">
           <h2 class="c-text">Manabi - Creative Learning</h2>
           <h3 class="c-text">A site for leading </h3>
         </div>
       </a>
-      <a class="c c-github" href="https://github.com/DanielSvindseth">
-        <div class="c-image"></div>
+      <a class="c" href="https://github.com/DanielSvindseth">
+        <img class="c-image" src="images/social/github-logo.svg"></img>
         <div class="c-text-box">
           <h2 class="c-text">@DanielSvindseth</h2>
           <h3 class="c-text">Visit my Github profile</h3>

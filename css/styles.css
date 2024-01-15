@@ -240,10 +240,35 @@ a:hover {
   cursor: pointer;
 }
 
+.c {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: calc(100% - 80px) 80px;
+  grid-template-areas: "image" "text";
+  width: 450px;
+  height: 250px;
+  border: solid darkgray 4px;
+  margin: 4px;
+  overflow: hidden;
+}
+
 .c-image {
-  height: calc(100% - 80px);
-  width: 100%;
+  max-height: calc(100% + 80px);
+  max-width: 100%;
+  width: auto;
+  height: auto;
   background-size: 100% 100%;
+  aspect-ratio: auto;
+  object-fit: cover;
+  grid-area: image;
+  justify-self: center;
+}
+
+.c-text-box {
+  grid-area: text;
+  height: 80px;
+  background-size: 100% 80px;
+  padding-top: 4px;
 }
 
 .c-text {
@@ -269,12 +294,6 @@ a:hover {
 
 .c:active .answer {
   display: block;
-}
-
-.c-text-box {
-  height: 80px;
-  background-size: 100% 80px;
-  padding-top: 4px;
 }
 
 .group-left {
@@ -401,15 +420,6 @@ a:hover {
   background-size: 100% auto;
   background-position: center;
   background-repeat: no-repeat;
-}
-
-.c {
-  display: block;
-  width: 450px;
-  height: 250px;
-  border: solid darkgray 4px;
-  margin: 4px;
-  overflow: hidden;
 }
 
 .c-short {
