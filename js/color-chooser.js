@@ -1,8 +1,8 @@
 function chooseHeaderColor1() {
-  var r = Math.floor((Math.random() * 255) + 1);
-  var g = Math.floor((Math.random() * 255) + 1);
-  var b = Math.floor((Math.random() * 255) + 1);
-  var a = 0.9;
+  var r = Math.floor((Math.random() * 127) + 1);
+  var g = Math.floor((Math.random() * 127) + 1);
+  var b = Math.floor((Math.random() * 127) + 1);
+  var a = 0.7;
   var header = document.getElementById('header');
   var settingsPanel = document.getElementById('settings-panel');
   header.style.backgroundColor='rgba(' + r + ', ' + g + ', ' + b + ', ' + a + ')';
