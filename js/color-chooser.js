@@ -14,12 +14,12 @@ function createCustomColor(color) {
 }
 
 function applyCustomColor() {
-  var customColor = localStorage.getItem("customColor");
+  var customColor = localStorage.getItem("customColor") + '7f';
   var header = document.getElementById('header');
   var settingsPanel = document.getElementById('settings-panel');
   header.style.backgroundColor = customColor;
   settingsPanel.style.backgroundColor = customColor;
-  console.log(customColor);
+  console.log('Setting custom color: ' + customColor);
 }
 
 function applyColor() {

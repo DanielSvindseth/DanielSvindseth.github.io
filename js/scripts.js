@@ -1,4 +1,6 @@
 //much java such script
+// Set variables here
+var settingsPanelShowing = false;
 
 function setTheme(theme) {
   localStorage.setItem("theme", theme);
@@ -107,6 +109,18 @@ function initSet(){
 }
 */
 
+
+
+function toggleSettingsPanel() {
+  if (settingsPanelShowing == false) {
+    showSettingsPanel();
+    settingsPanelShowing = true;
+  } else {
+    hideSettingsPanel();
+    settingsPanelShowing = false;
+  }
+}
+
 function showSettingsPanel() {
   var settingsPanel = document.getElementById('settings-panel');
   var cover = document.getElementById('cover');
@@ -137,7 +151,7 @@ function loadAttributes() {
     document.getElementById('color-picker').style.display="none";
   }
 }
-// 
+//
 // localStorage.setItem('Cookies', )
 // function addCookie() {
 //

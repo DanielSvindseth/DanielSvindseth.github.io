@@ -15,95 +15,110 @@
 
     <div id="header">
       <div id="logo">
-        <div class="logo-text">
-          <h1 class="header-title" id="inTitle"></h1>
-          <!-- <h3 class="header-subtitle" id="inSubtitle"></h3> -->
+        <div class="logo-text english">
+          <h1 class="header-title">svindseth.net</h1>
+        </div>
+        <div class="logo-text japanese">
+          <h1 class="header-title">スヴィンセト・ネット</h1>
         </div>
       </div>
-      <button class="header-button" onclick="showSettingsPanel();"><img src="images/dock-right-symbolic.svg" alt="menu"></button>
+      <button class="header-button" onclick="toggleSettingsPanel();"><img src="images/dock-right-symbolic.svg" alt="menu"></button>
     </div>
     <div class="header-box"></div>
 
     <!-- <h1 class="t-center wow">Here are some of my projects!</h1> -->
 
-    <div id="cards">
+    <div id="main">
+      <div class="spacer"></div>
+      <div id="cards">
 
-      <a class="c" href="https://github.com/DanielSvindseth/CreateFramework/tree/master">
-        <img class="c-image" src="images/create-96.png"></img>
-        <div class="c-text-box">
-          <h2 class="c-text">Create Framework</h2>
-          <h3 class="c-text">.css and .js Framework for teaching</h3>
-        </div>
-      </a>
-      <a class="c" href="https://inspire.svindseth.net">
-        <img class="c-image" src="images/inspire.png"></img>
-        <div class="c-text-box">
-          <h2 class="c-text">Inspire</h2>
-          <h3 class="c-text">Inspirational presentations</h3>
-        </div>
-      </a>
-      <a class="c" href="https://github.com/DanielSvindseth/Music-Sheep/">
-        <img class="c-image" src="images/musicsheep-electron.png"></img>
-        <div class="c-text-box">
-          <h2 class="c-text">Music Sheep</h2>
-          <h3 class="c-text">A music player for the desktop</h3>
-        </div>
-      </a>
-      <a class="c" href="https://github.com/DanielSvindseth/Music-Sheep/">
-        <img class="c-image" src="images/musicsheep-gtk.png"></img>
-        <div class="c-text-box">
-          <h2 class="c-text">Music Sheep</h2>
-          <h3 class="c-text">A music player for the desktop</h3>
-        </div>
-      </a>
-      <a class="c" href="https://karolinefoto.com">
-        <img class="c-image" src="images/karolinefoto.png"></img>
-        <div class="c-text-box">
-          <h2 class="c-text">KarolineFoto</h2>
-          <h3 class="c-text">KarolineFoto's Official Website</h3>
-        </div>
-      </a>
-      <a class="c" href="legacy/index-old.html">
-        <img class="c-image" src="images/old.png"></img>
-        <div class="c-text-box">
-          <h2 class="c-text">Old design</h2>
-          <h3 class="c-text">View the legacy version of this page</h3>
-        </div>
-      </a>
-      <a class="c" href="https://manabi.no">
-        <img class="c-image" src="images/creative-learning.png"></img>
-        <div class="c-text-box">
-          <h2 class="c-text">Manabi - Creative Learning</h2>
-          <h3 class="c-text">A site for leading </h3>
-        </div>
-      </a>
-      <a class="c" href="https://github.com/DanielSvindseth">
-        <img class="c-image" src="images/social/github-logo.svg"></img>
-        <div class="c-text-box">
-          <h2 class="c-text">@DanielSvindseth</h2>
-          <h3 class="c-text">Visit my Github profile</h3>
-        </div>
-      </a>
+        <a class="c" href="https://github.com/DanielSvindseth/CreateFramework/tree/master">
+          <img class="c-image" src="images/create-96.png"></img>
+          <div class="c-text-box">
+            <h2 class="c-text">Create Framework</h2>
+            <h3 class="c-text">.css and .js Framework for teaching</h3>
+          </div>
+        </a>
+        <a class="c" href="https://inspire.svindseth.net">
+          <img class="c-image" src="images/inspire2.png"></img>
+          <div class="c-text-box">
+            <h2 class="c-text">Inspire</h2>
+            <h3 class="c-text">Inspirational presentations</h3>
+          </div>
+        </a>
+        <a class="c" href="https://github.com/DanielSvindseth/Music-Sheep/">
+          <img class="c-image" src="images/musicsheep-electron.png"></img>
+          <div class="c-text-box">
+            <h2 class="c-text">Music Sheep</h2>
+            <h3 class="c-text">A music player for the desktop</h3>
+          </div>
+        </a>
+        <a class="c" href="https://github.com/DanielSvindseth/Music-Sheep/">
+          <img class="c-image" src="images/musicsheep-gtk.png"></img>
+          <div class="c-text-box">
+            <h2 class="c-text">Music Sheep</h2>
+            <h3 class="c-text">A music player for the desktop</h3>
+          </div>
+        </a>
+        <a class="c" href="https://karolinefoto.com">
+          <img class="c-image" src="images/karolinefoto.png"></img>
+          <div class="c-text-box">
+            <h2 class="c-text">KarolineFoto</h2>
+            <h3 class="c-text">KarolineFoto's Official Website</h3>
+          </div>
+        </a>
+        <a class="c" href="legacy/index.html">
+          <img class="c-image" src="images/old.png"></img>
+          <div class="c-text-box">
+            <h2 class="c-text">Old design</h2>
+            <h3 class="c-text">View the legacy version of this page</h3>
+          </div>
+        </a>
+        <a class="c" href="https://manabi.no">
+          <img class="c-image" src="images/manabi.png"></img>
+          <div class="c-text-box">
+            <h2 class="c-text">Manabi - Creative Learning</h2>
+            <h3 class="c-text">A site for learning</h3>
+          </div>
+        </a>
+        <a class="c" href="https://blog.svindseth.net">
+          <img class="c-image" src="images/blog.png"></img>
+          <div class="c-text-box">
+            <h2 class="c-text">Wordpress Blog</h2>
+            <h3 class="c-text">A blog about digital EFL classrooms</h3>
+          </div>
+        </a>
+        <a class="c" href="https://github.com/DanielSvindseth">
+          <img class="c-image" src="images/social/github-logo.svg"></img>
+          <div class="c-text-box">
+            <h2 class="c-text">@DanielSvindseth</h2>
+            <h3 class="c-text">Visit my Github profile</h3>
+          </div>
+        </a>
+      </div>
+      <div class="spacer"></div>
     </div>
 
-    <div id="cover" style="display: none;" onclick="hideSettingsPanel();"></div>
+
+
+    <div id="cover" style="display: none;" onclick="toggleSettingsPanel();"></div>
     <div id="settings-panel" style="display: none;">
-      <button class="header-button" onclick="hideSettingsPanel();"><img src="images/left-small-symbolic.svg" alt="back"></button>
+      <!-- <button class="header-button" onclick="toggleSettingsPanel();"><img src="images/left-small-symbolic.svg" alt="back"></button> -->
 
       <div class="settings-item">
         <div class="settings-row">
           <div class="settings-panel-grp">
-            <h1>Change Appearance</h1>
+            <h3>Change Theme</h3>
           </div>
         </div>
         <div class="settings-row">
           <div class="settings-panel-grp">
-            <button type="button" name="button" class="settings-button border-left" onclick="setTheme(1); hideColorPicker();"><h6>Pink & Blue</h6></button><!--
-         --><button type="button" name="button" class="settings-button" onclick="setTheme(2); hideColorPicker();"><h6>Green & Blue</h6></button><!--
-         --><button type="button" name="button" class="settings-button" onclick="setTheme(3); hideColorPicker();"><h6>Blue & Grey</h6></button><!--
-         --><button type="button" name="button" class="settings-button" onclick="setTheme(4); applyColor(); hideColorPicker();"><h6>Random Color!</h6></button><!--
-         --><button type="button" name="button" class="settings-button" onclick="setTheme(5); applyColor(); showColorPicker();"><h6>Custom</h6></button><!--
-         --><button type="button" name="button" class="settings-button border-right" onclick="setTheme(6); hideColorPicker();"><h6>Glass</h6></button>
+            <button type="button" name="button" class="settings-button border-left" onclick="setTheme(1); hideColorPicker();"><h6>Pink & blue</h6></button><!--
+         --><button type="button" name="button" class="settings-button" onclick="setTheme(2); hideColorPicker();"><h6>Green & blue</h6></button><!--
+         --><button type="button" name="button" class="settings-button" onclick="setTheme(3); hideColorPicker();"><h6>Blue & grey</h6></button><!--
+         --><button type="button" name="button" class="settings-button" onclick="setTheme(4); applyColor(); hideColorPicker();"><h6>Random color!</h6></button><!--
+         --><button type="button" name="button" class="settings-button" onclick="setTheme(5); applyColor(); showColorPicker();"><h6>Custom color</h6></button><!--
+         --><button type="button" name="button" class="settings-button border-right" onclick="setTheme(6); hideColorPicker();"><h6>Purple glass</h6></button>
           </div>
         </div>
         <div id="color-picker" class="settings-row">
@@ -129,8 +144,8 @@
     </div>
   </body>
   <script type="text/javascript" src="js/scripts.js"></script>
-  <script type="text/javascript" src="js/gl-matrix.js"></script>
-  <script type="text/javascript" src="js/game.js"></script>
-  <script type="text/javascript" src="js/index-strings.js"></script>
+  <!-- <script type="text/javascript" src="js/gl-matrix.js"></script>
+  <script type="text/javascript" src="js/game.js"></script> -->
+  <!-- <script type="text/javascript" src="js/index-strings.js"></script> -->
   <script type="text/javascript" src="js/color-chooser.js"></script>
 </html>
