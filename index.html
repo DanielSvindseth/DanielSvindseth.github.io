@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/cookies.css">
     <link rel="stylesheet" id="wow-theme" href="css/thm4.css">
   </head>
-  <body onload="loadTheme(); firstVisit(); applyColor(); loadAttributes(); cookieCheck();">
+  <body id="body" onload="loadTheme(); firstVisit(); applyColor(); loadAttributes(); cookieCheck();">
 
     <div id="header">
       <div id="logo">
@@ -119,12 +119,12 @@
         </div>
         <div class="settings-row">
           <div class="settings-panel-grp">
-            <button type="button" name="button" class="settings-button border-left" onclick="setTheme(1); hideColorPicker();"><h6>Pink & blue</h6></button><!--
-         --><button type="button" name="button" class="settings-button" onclick="setTheme(2); hideColorPicker();"><h6>Green & blue</h6></button><!--
-         --><button type="button" name="button" class="settings-button" onclick="setTheme(3); hideColorPicker();"><h6>Blue & grey</h6></button><!--
+            <button type="button" name="button" class="settings-button" onclick="setTheme(1); hideColorPicker(); applyBackgroundColor('#202020');"><h6>Pink & blue</h6></button><!--
+         --><button type="button" name="button" class="settings-button" onclick="setTheme(2); hideColorPicker(); applyBackgroundColor('#202020');"><h6>Green & blue</h6></button><!--
+         --><button type="button" name="button" class="settings-button" onclick="setTheme(3); hideColorPicker(); applyBackgroundColor('#202020');"><h6>Blue & grey</h6></button><!--
          --><button type="button" name="button" class="settings-button" onclick="setTheme(4); applyColor(); hideColorPicker();"><h6>Random color!</h6></button><!--
-         --><button type="button" name="button" class="settings-button" onclick="setTheme(5); applyColor(); showColorPicker();"><h6>Custom color</h6></button><!--
-         --><button type="button" name="button" class="settings-button border-right" onclick="setTheme(6); hideColorPicker();"><h6>Purple glass</h6></button>
+         --><button type="button" name="button" class="settings-button" onclick="setTheme(5); applyColor(); showColorPicker(); applyBackgroundColor('#202020');"><h6>Custom color</h6></button><!--
+         --><button type="button" name="button" class="settings-button" onclick="setTheme(6); hideColorPicker(); applyBackgroundColor('#202020');"><h6>Purple glass</h6></button>
           </div>
         </div>
         <div id="color-picker" class="settings-row">

@@ -1,12 +1,33 @@
-function chooseHeaderColor1() {
+function pad(color) {
+  console.log(color);
+  if (color.length == 1) {
+    color = '0' + color;
+    console.log(color);
+  }
+  return color;
+}
+
+function createRandomColor() {
   var r = Math.floor((Math.random() * 127) + 1);
-  var g = Math.floor((Math.random() * 127) + 1);
+  var g = Math.floor((Math.random() * 95) + 1);
   var b = Math.floor((Math.random() * 127) + 1);
-  var a = 0.7;
+  var a = '7f';
+  var color = '#' + pad(r.toString(16)) + pad(g.toString(16)) + pad(b.toString(16)) + a;
+  console.log('Generated random color: ' + color);
+  return color;
+}
+
+function applyHeaderColor(color) {
   var header = document.getElementById('header');
   var settingsPanel = document.getElementById('settings-panel');
-  header.style.backgroundColor='rgba(' + r + ', ' + g + ', ' + b + ', ' + a + ')';
-  settingsPanel.style.backgroundColor='rgba(' + r + ', ' + g + ', ' + b + ', ' + a + ')';
+  header.style.backgroundColor = color;
+  settingsPanel.style.backgroundColor = color;
+}
+
+function applyBackgroundColor(color) {
+  var body = document.getElementById('body');
+
+  body.style.backgroundColor = color;
 }
 
 function createCustomColor(color) {
@@ -24,36 +45,10 @@ function applyCustomColor() {
 
 function applyColor() {
   if (localStorage.getItem("theme") === '4') {
-    chooseHeaderColor1();
+    color = createRandomColor();
+    applyHeaderColor(color);
+    applyBackgroundColor(color);
   } else if (localStorage.getItem("theme") === '5') {
     applyCustomColor();
   }
 }
-
-function switchAnimatedHeader() {
-  var headerAnimation = document.getElementsByClassName('game-surface-header')[0];
-  if (headerAnimation.style.display === 'block') {
-    headerAnimation.style.display = 'none';
-  } else {
-    headerAnimation.style.display = 'block';
-  }
-}
-
-/*
-function chooseButtonColor() {
-  var r = Math.floor((Math.random() * 255) + 1);
-  var g = Math.floor((Math.random() * 20) + 1);
-  var b = Math.floor((Math.random() * 120) + 1);
-  var a = 1;
-  var button = document.getElementsByTagName("BUTTON");
-  var i;
-  for (i = 0; i < button.length; i++) {
-    button[i].style.backgroundColor='rgba(' + r + ', ' + g + ', ' + b + ', ' + a + ')';
-  }
-}
-*/
-
-//var r = Math.floor((Math.random() * 255) + 1);
-//var g = Math.floor((Math.random() * 255) + 1);
-//var b = Math.floor((Math.random() * 255) + 1);
-//var a = 1;

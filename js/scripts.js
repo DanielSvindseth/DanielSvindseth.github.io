@@ -12,54 +12,6 @@ function loadTheme(){
   document.getElementById('wow-theme').setAttribute('href', 'css/thm' + storedTheme + '.css');
 }
 
-function switchSet(){
-  if (localStorage.flashcardset==1) {
-    localStorage.setItem("flashcardset", "2");
-    document.getElementById('currentSet').setAttribute('src', 'flashcards/set2.js');
-    location.reload();
-    return(0);
-  }
-  if (localStorage.flashcardset==2) {
-    localStorage.setItem("flashcardset", "3");
-    document.getElementById('currentSet').setAttribute('src', 'flashcards/set3.js');
-    location.reload();
-    return(0);
-  }
-  if (localStorage.flashcardset==3) {
-    localStorage.setItem("flashcardset", "4");
-    document.getElementById('currentSet').setAttribute('src', 'flashcards/set4.js');
-    location.reload();
-    return(0);
-  }
-  else {
-    localStorage.setItem("flashcardset", "1");
-    document.getElementById('currentSet').setAttribute('src', 'flashcards/set1.js');
-    location.reload();
-  }
-}
-
-function loadSet(){
-  if (localStorage.flashcardset==1) {
-    document.getElementById('currentSet').setAttribute('src', 'flashcards/set1.js');
-
-  }
-  if (localStorage.flashcardset==2) {
-    document.getElementById('currentSet').setAttribute('src', 'flashcards/set2.js');
-
-  }
-  if (localStorage.flashcardset==3) {
-    document.getElementById('currentSet').setAttribute('src', 'flashcards/set3.js');
-
-  }
-  if (localStorage.flashcardset==4) {
-    document.getElementById('currentSet').setAttribute('src', 'flashcards/set4.js');
-
-  }
-  else {
-    return(0);
-  }
-}
-
 function firstVisit(){
   if (localStorage.prevVisit!=1) {
     document.getElementById('wow-theme').setAttribute('href', 'css/thm4.css');
@@ -86,29 +38,6 @@ function dismissCookie() {
   var cookie = document.getElementById('cookie');
   cookie.style.animationName="roll-2";
 }
-
-/*  var cookieBox = document.getElementById('cookie');
-var flashcardset = "1";
-
-function initSet(){
-  if (flashcardset=="1"){
-    document.write('<script type="text/javascript" src="flashcards/set1.js" id="currentSet"></script>')
-  }
-  if (flashcardset=="2"){
-    document.write('<script type="text/javascript" src="flashcards/set2.js" id="currentSet"></script>')
-  }
-  if (flashcardset=="3"){
-    document.write('<script type="text/javascript" src="flashcards/set3.js" id="currentSet"></script>')
-  }
-  if (flashcardset=="4"){
-    document.write('<script type="text/javascript" src="flashcards/set4.js" id="currentSet"></script>')
-  }
-  else {
-    document.write('<script type="text/javascript" src="flashcards/set1.js" id="currentSet"></script>')
-  }
-}
-*/
-
 
 
 function toggleSettingsPanel() {
